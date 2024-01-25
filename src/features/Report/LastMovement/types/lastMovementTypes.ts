@@ -1,0 +1,32 @@
+export type { LastMovementData };
+interface LastMovementData {
+  corporate_id: number;
+  company_id: number;
+  subsidiary_id: number;
+  tire_id: number;
+  corporate_name: string;
+  company_name: string;
+  subsidiary_name: string;
+  division_name: string;
+  economic_number: string;
+  real_position: number;
+  wear: number;
+  code: string;
+  device_code: any;
+  size: string;
+  brand_name: string;
+  brand_retread_name: any;
+  original_model: string;
+  tire_condition_id: string;
+  type: any;
+  number_cycle: number;
+  tire_travel: number;
+  movement_date: string;
+  depth_variation: number;
+  depth: number;
+  remainder_depth: number;
+  cost: string;
+  cpd: number;
+  disposal_loss: number;
+  retirement_cause: string;
+}

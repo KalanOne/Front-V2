@@ -1,0 +1,8 @@
+{
+  "km_projection_report": {
+    "title": "Km Projection Report",
+    "label": "This report shows the km projection of the $t(common:tire_plural)",
+    "km_projection": "Km Projection",
+    "km_projection_cost": "Km Projection Cost"
+  }
+}

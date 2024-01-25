@@ -1,0 +1,14 @@
+{
+  "login": {
+    "title": "Iniciar Sesión",
+    "sub_title": "Ingrese sus credenciales para iniciar sesión",
+    "form": {
+      "enter_button": "Entrar",
+      "change_password_button": "Olvidó su contraseña?"
+    },
+    "messages": {
+      "login": "Listo, ha iniciado sesión correctamente.",
+      "error": "Error, por favor verifique sus credenciales."
+    }
+  }
+}

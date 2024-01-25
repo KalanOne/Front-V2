@@ -1,0 +1,407 @@
+{
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "brand_type": {
+    "label": {
+      "singular": "Tipo de $t(common:brand)",
+      "plural": "Tipos de $t(common:brand_plural)"
+    },
+    "default": {
+      "singular": "Selecciona un tipo $t(common:brand)",
+      "plural": "Selecciona los tipos de $t(common:brand_plural)"
+    },
+    "helper_text": "Se pueden seleccionar varios tipos $t(common:brand_plural)",
+    "options": {
+      "vehicle": "$t(common:vehicle)",
+      "tire": "$t(common:tire)",
+      "engine_transmission": "Transmisión del motor",
+      "vehicle_engine": "Motor del $t(common:vehicle)",
+      "retread": "Revitalizado"
+    }
+  },
+  "id": "ID",
+  "date": {
+    "label": "Fecha",
+    "range": "Rango de fechas",
+    "from": "Desde",
+    "to": "Hasta"
+  },
+  "status": "Estatus",
+  "approved": "Aprobado",
+  "data_sheet": {
+    "label": "Ficha técnica",
+    "placeholder": "Suelte el documento de la ficha técnica aquí o haga clic para seleccionarla",
+    "no": "Sin ficha técnica"
+  },
+  "tire_model": {
+    "model_name": "$t(common:name) del $t(common:model)",
+    "use": "Uso",
+    "application": "Aplicación"
+  },
+  "tire_application": {
+    "label": {
+      "singular": "Aplicación del $t(common:tire)",
+      "plural": "Aplicaciones de los $t(common:tire_plural)"
+    },
+    "default": {
+      "singular": "Selecciona la aplicación",
+      "plural": "Selecciona las aplicaciones"
+    },
+    "helper_text": "Se pueden seleccionar varias aplicaciones",
+    "options": {
+      "directional": "Direccional",
+      "trailer": "Remolque",
+      "all_position": "Toda posición",
+      "traction": "Tracción"
+    }
+  },
+  "tire_model_variation": {
+    "label": "Variación del $t(common:model) de $t(common:tire)",
+    "depth": "Profundidad",
+    "maximum_pressure": "Presión máxima",
+    "recommended_pressure": "Presión recomendada",
+    "tolerance": "Tolerancia de presión",
+    "number_layers": "Número de capas"
+  },
+  "helmet_value": "Valor del casco",
+  "helmet_value_revitalized": "Valor del casco revitalizado",
+  "tire_use": {
+    "options": {
+      "long_distance": "Larga distancia",
+      "mixed": "Mixto",
+      "regional": "Regional",
+      "urban": "Urbano"
+    }
+  },
+  "registered_by": "Registrado por",
+  "depth": "Profundidad",
+  "application": "Aplicación",
+  "alert": {
+    "label": "$t(common:alert)",
+    "code": "Código de $t(common:alert)",
+    "suggestion": "Sugerencia",
+    "details": "Detalles"
+  },
+  "priority": {
+    "label": "Prioridad",
+    "default": "Selecciona una prioridad",
+    "helper_text": "Se pueden seleccionar varias",
+    "options": {
+      "high": "Alta",
+      "half": "Media",
+      "low": "Baja"
+    }
+  },
+  "alert_type": {
+    "label": "Tipo de $t(common:alert)",
+    "default": "Selecciona un Tipo de $t(common:alert)",
+    "helper_text": "Se pueden seleccionar varias",
+    "options": {
+      "vehicle": "$t(common:vehicle)",
+      "tire": "$t(common:tire)",
+      "mount": "Montaje"
+    }
+  },
+  "ranking_alert": {
+    "label": "Clasificación de $t(common:alert)",
+    "default": "Selecciona una Clasificación de $t(common:alert)",
+    "options": {
+      "pressure": "Presión",
+      "depth": "Profundidad",
+      "condition": "Condición",
+      "application": "Aplicación",
+      "projection": "Proyección",
+      "patches": "Parches",
+      "retirement": "Retiro",
+      "model": "$t(common:model)",
+      "size": "$t(common:size)",
+      "review": "$t(common:review)",
+      "assignment": "Asignación",
+      "identification": "Identificación"
+    }
+  },
+  "code": "Código",
+  "appearance": "Apariencia",
+  "placeholder": {
+    "image": "Suelte la imagen o haga clic para seleccionarla"
+  },
+  "category": {
+    "label": "Categoría",
+    "default": "Selecciona una categoría",
+    "options": {
+      "not_avoidable": "No evitables",
+      "avoidable": "Evitables",
+      "helmet_failure": "Falla de casco",
+      "operation": "Operación",
+      "retread_repair": "Renovado/Reparación",
+      "road_risk": "Riesgos del camino",
+      "directional": "Direccional",
+      "traction": "Tracción",
+      "trailer": "Remolque"
+    }
+  },
+  "probable_causes": "$t(common:cause_plural) probables",
+  "action_tire": "$t(common:tire) de acción",
+  "action_vehicle": "$t(common:vehicle) de acción",
+  "action_operation": "Acción operaciones",
+  "area": {
+    "label": "Área",
+    "default": "Selecciona un área",
+    "options": {
+      "sidewall": "Costado",
+      "bead": "Ceja",
+      "tread": "Corona",
+      "inside": "Interior",
+      "any": "Cualquiera",
+      "crown": "Corona",
+      "wheel": "Rueda"
+    }
+  },
+  "lock_cycle": "Bloquear nuevos ciclos de revitalización",
+  "description": "Descripción",
+  "name": {
+    "special": "$t(common:name)(s)"
+  },
+  "social_reason": "Razón social",
+  "rfc": "RFC",
+  "tire_fee": "Cuota por $t(common:tire)",
+  "fee_field": {
+    "label": "Tipo de moneda de la cuota",
+    "options": {
+      "mxn": "Pesos Mexicanos (MXN)",
+      "usd": "Dolar estadounidense (USD)",
+      "eur": "Moneda Europea (EUR)"
+    }
+  },
+  "tradename": "$t(common:name) de la $t(common:company)",
+  "direction": "Dirección",
+  "direction1": "Calle",
+  "direction2": "Colonia",
+  "province": "Provincia o municipio",
+  "internal_number": "Numero Interno",
+  "external_number": "Numero Externo",
+  "address": "Domicilio",
+  "postal_code": "Código postal",
+  "country": "País",
+  "state": "Estado",
+  "company_policies": {
+    "general_policies": "$t(common:policy_plural) generales",
+    "number_cycle": "Número máximo de ciclos",
+    "tire_rotation": "$t(common:policy) de rotación",
+    "inspection": "$t(common:policy) de $t(common:review_plural)",
+    "days": "días",
+    "tolerance_inflation_pressure": "Tolerancia para presión de inflado",
+    "directional_tire_rotation": "$t(common:policy) de rotación direccionales",
+    "tolerance_mating_pressure": "Tolerancia para presión (emparejamiento)",
+    "helmet_policy": "$t(common:policy) de cascos",
+    "pressure_type_axle": "Presión recomendada por tipo $t(common:axle)",
+    "tire_condition_axle_type": "Condición de $t(common:tire_plural) por tipo de $t(common:axle)",
+    "show_alerts_different_assignment": "Mostrar $t(common:alert_plural) de diferente asignación",
+    "notify_inappropriate_pressures": "Notificar a operador sobre presiones inadecuadas",
+    "tolerance_directional_mating_depth": "Tolerancia para profundidad (direccionales)",
+    "mating_tolerance_directional_mating_depth": "Emparejamiento Tolerancia para profundidad (direccionales)",
+    "tolerance_mating_depth": "Tolerancia para profundidad",
+    "mating_tolerance_mating_depth": "Emparejamiento Tolerancia para profundidad",
+    "send_pressure_setting": "Enviar ajuste de presiones",
+    "operator_edit": "Operador puede editar $t(common:review_plural)",
+    "refection_review": "Revisar $t(common:tire_plural) de refacción"
+  },
+  "yes": "Si",
+  "no": "No",
+  "layer": "Capas",
+  "tire_model_variation_field": {
+    "label": "$t(common:size)/Capas",
+    "default": "Selecciona una $t(common:size)/capas",
+    "multiple": "Se pueden seleccionar varias"
+  },
+  "depth_tolerance_policies": {
+    "general_policies": "$t(common:policy_plural) Generales",
+    "tire_application_id": "Aplicación de $t(common:tire)",
+    "good_condition": "Buena Condición",
+    "scheduled_withdrawal": "Retiro Programado",
+    "critical_withdrawal": "Retiro Critico",
+    "maximum_number_patches": "Máximo Numero de parches",
+    "critical_number_patches": "Numero de parches critico"
+  },
+  "economic_number": "Número económico",
+  "vehicle_type": {
+    "label": "Tipo de $t(common:vehicle)",
+    "default": "Selecciona un tipo de $t(common:vehicle)"
+  },
+  "axle_field": {
+    "label": "Tipo de $t(common:axle)",
+    "default": "Selecciona un $t(common:axle)",
+    "options": {
+      "directional": "Direccional",
+      "traction": "Tracción",
+      "trailer": "Remolque",
+      "refection": "Refacción"
+    }
+  },
+  "good_condition": "Buen estado",
+  "maximum_number_patches": "Máximo número de parches",
+  "critical_number_patches": "Número crítico de parches",
+  "scheduled_withdrawal": "Retiro programado",
+  "critical_withdrawal": "Retiro crítico",
+  "observation": "Observación",
+  "gps": "Gps",
+  "imei": "Imei",
+  "device_name": "$t(common:name) del dispositivo",
+  "created_at": "Fecha de registro",
+  "device_code": "Código del dispositivo",
+  "location": {
+    "label": "Ubicación",
+    "options": {
+      "warehouse": "$t(common:warehouse)",
+      "mount": "Montada",
+      "revitalization": "REVITALIZACIÓN",
+      "pile": "PILA",
+      "repair": "REPARACIÓN",
+      "initial": "INICIAL"
+    }
+  },
+  "rfid": "Rfid",
+  "condition": "Condición",
+  "invoice_date": "Fecha de factura",
+  "invoice_folio": "Folio de factura",
+  "revitalized_brand_field": {
+    "label": "$t(common:brand) revitalizada",
+    "default": "Selecciona una $t(common:brand)"
+  },
+  "tire_condition": {
+    "default": "Selecciona una condición",
+    "options": {
+      "renovated_new": "Renovada nueva",
+      "renovated_used": "Renovada usada",
+      "original": "Original",
+      "revitalized": "Revitalizada",
+      "both": "Ambas",
+      "original_new": "Original Nueva",
+      "original_used": "Original Usada",
+      "retread_new": "Renovada Nueva",
+      "retread_used": "Renovada Usada",
+      "renewed": "Renovada",
+      "total": "Total"
+    }
+  },
+  "vehicle_brand": {
+    "label": "$t(common:brand) del $t(common:vehicle)",
+    "default": "Selecciona una $t(common:brand) de $t(common:vehicle)"
+  },
+  "pressure": "Presión",
+  "vehicle_type_axle_position": {
+    "label": "Posición",
+    "options": {
+      "frontal": "Frontal",
+      "central": "Central",
+      "rear": "Trasera",
+      "refection": "Refacción"
+    }
+  },
+  "dot_initial": "DOT inicial",
+  "dot_final": "DOT final",
+  "spare": "Es refacción",
+  "cap_and_casing": "Es vitacasco",
+  "expected_durability": "Durabilidad esperada",
+  "price": "Precio",
+  "retread_price": "Precio revitalizado",
+  "original_price": "Precio original",
+  "axle_number": "Numero de $t(common:axle)",
+  "mileage": "Kilometraje",
+  "review_date": "Fecha de $t(common:review)",
+  "number_cycle": "Número de ciclo",
+  "dot": "DOT",
+  "not_warehouse": "Sin $t(common:warehouse)",
+  "not_vehicle": "Sin $t(common:vehicle)",
+  "created_by": "Creado por",
+  "updated_by": "Actualizado por",
+  "excel_placeholder": "Suelte el archivo de excel aquí o haga clic para seleccionarlo",
+  "date_send": "Fecha de envío",
+  "date_return": "Fecha de regreso",
+  "history": "Historial",
+  "retirement_cause_field": {
+    "label": "$t(common:cause) de retiro",
+    "default": "Selecciona una $t(common:cause) de retiro"
+  },
+  "cost_dispose_helmet": "Costo por desechar el casco",
+  "surcharge": "Recargos al chofer",
+  "surcharge_item": {
+    "label": "Objeto de recargo",
+    "default": "Selecciona un objeto de recargo",
+    "options": {
+      "operation": "Operación"
+    }
+  },
+  "similar_tires": "¿Neumáticos similares a registrar?",
+  "revitalized_tire_model_field": {
+    "label": "$t(common:model) revitalizado"
+  },
+  "original_info": "Datos originales",
+  "number_patches": "Número de parches",
+  "inspection_date": "Fecha de $t(common:inspection)",
+  "type_of_route": {
+    "label": "Tipo de ruta",
+    "default": "Selecciona un tipo de ruta",
+    "options": {
+      "local": "Local",
+      "foreign": "Foránea"
+    }
+  },
+  "vehicle": {
+    "in_process": "$t(common:vehicle_plural) en proceso"
+  },
+  "movement_sheet": "Hoja de movimientos",
+  "review_type": {
+    "label": "Tipo de $t(common:review)",
+    "options": {
+      "reset": "Reinicio de odómetro",
+      "complete": "Completa",
+      "damage_and_wear": "$t(common:damage_plural) y $t(common:wear_plural)",
+      "rotation": "Rotaciones",
+      "mount_dismount": "Movimientos",
+      "pressure": "Presión",
+      "identify": "Identificación",
+      "initial": "Inicial",
+      "partial": "Parcial"
+    }
+  },
+  "finalized": "Finalizada",
+  "inspection_in_process": "$t(common:inspection) en proceso",
+  "detail": "Detalle",
+  "tire_days_service": "Días en servicio",
+  "cost_km": "Costo KM",
+  "cost_mm": "Costo MM",
+  "cost": "cost",
+  "projection": "Proyección de KM",
+  "last_review": "Última $t(common:inspection)",
+  "new_review": "Nueva $t(common:inspection)",
+  "odometer": "Odómetro",
+  "done_by": "Realizada por",
+  "correct_tire": {
+    "label": "¿Neumático correcto?",
+    "yes": "Correcto",
+    "no": "No correcto"
+  },
+  "language_field": {
+    "label": "Idioma",
+    "options": { "es": "Español", "en": "Ingles" }
+  },
+  "wheel": {
+    "label": "Tipo de rin",
+    "default": "Selecciona un tipo de rin",
+    "options": {
+      "steel": "Acero",
+      "aluminum": "Aluminio",
+      "both": "Aluminio y acero"
+    }
+  },
+  "activity": {
+    "label": "Descartar $t(common:review_plural)",
+    "options": {
+      "not_rule_out": "Sin descartar",
+      "general": "Descartar montajes y desmontajes",
+      "general_and_mount": "Descartar desmontajes"
+    }
+  },
+  "burn_code": "Código de quemado"
+}

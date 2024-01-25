@@ -1,0 +1,7 @@
+{
+  "user_review_report": {
+    "review_report": "$t(common:review) report",
+    "report_show": "This report shows all the revisions made by the $t(common:user) to a $t(common:vehicle) in the established date range.",
+    "percent": "Percent"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "originalModel": {
+        "title": "Tires models",
+        "no_tire_model": "No tires models",
+        "permits": {
+            "create": "No permissions to create tire models"
+        }
+    },
+    "originalModelVariation": {
+        "no_tire_model_variation": "No tire model variations",
+        "permits": {
+            "create": "No permissions to create model variations"
+        }
+    }
+}

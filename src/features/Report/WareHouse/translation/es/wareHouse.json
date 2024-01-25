@@ -1,0 +1,26 @@
+{
+  "report_warehouse": {
+    "percent": "Porcentaje",
+    "movement_date": "Fecha de almacenaje",
+    "model": "$t(common:model)",
+    "size": "$t(common:size)",
+    "depth": "Profundidad de huella",
+    "depth_condition": {
+      "good_condition": "Buen estado",
+      "critical_withdrawal": "Retiro crítico",
+      "scheduled_withdrawal": "Retiro programado"
+    },
+    "tire_condition": {
+      "original_new": "Original Nueva",
+      "original_used": "Original Usada",
+      "retread_new": "Renovada Nueva",
+      "retread_used": "Renovada Usada"
+    },
+    "tire_application": {
+      "all_position": "Toda posición",
+      "directional": "Direccional",
+      "traction": "Tracción",
+      "trailer": "Remolque"
+    }
+  }
+}

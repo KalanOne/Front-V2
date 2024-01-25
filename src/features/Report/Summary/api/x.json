@@ -1,0 +1,268 @@
+{
+  "alert": {
+    "Transportes Americanos": {
+      "Transportes Americanos": {
+        "GUADALAJARA": {
+          "B1": {
+            "HALF": {
+              "TRAILER": {
+                "statistics": 1,
+                "percent": 100
+              },
+              "statistics": 1,
+              "percent": 5.2631578947368425
+            },
+            "HIGH": {
+              "ALL_POSITION": {
+                "statistics": 6,
+                "percent": 50
+              },
+              "DIRECTIONAL": {
+                "statistics": 1,
+                "percent": 8.333333333333334
+              },
+              "TRACTION": {
+                "statistics": 2,
+                "percent": 16.666666666666668
+              },
+              "TRAILER": {
+                "statistics": 3,
+                "percent": 25
+              },
+              "statistics": 12,
+              "percent": 63.1578947368421
+            },
+            "LOW": {
+              "ALL_POSITION": {
+                "statistics": 3,
+                "percent": 50
+              },
+              "TRACTION": {
+                "statistics": 2,
+                "percent": 33.333333333333336
+              },
+              "TRAILER": {
+                "statistics": 1,
+                "percent": 16.666666666666668
+              },
+              "statistics": 6,
+              "percent": 31.57894736842105
+            },
+            "statistics": 19,
+            "percent": 1.8112488083889418
+          },
+          "PATIERO": {
+            "HALF": {
+              "ALL_POSITION": {
+                "statistics": 11,
+                "percent": 25
+              },
+              "TRACTION": {
+                "statistics": 33,
+                "percent": 75
+              },
+              "statistics": 44,
+              "percent": 61.971830985915496
+            },
+            "HIGH": {
+              "ALL_POSITION": {
+                "statistics": 5,
+                "percent": 27.77777777777778
+              },
+              "TRACTION": {
+                "statistics": 13,
+                "percent": 72.22222222222223
+              },
+              "statistics": 18,
+              "percent": 25.35211267605634
+            },
+            "LOW": {
+              "ALL_POSITION": {
+                "statistics": 2,
+                "percent": 22.22222222222222
+              },
+              "TRACTION": {
+                "statistics": 7,
+                "percent": 77.77777777777777
+              },
+              "statistics": 9,
+              "percent": 12.67605633802817
+            },
+            "statistics": 71,
+            "percent": 6.768350810295519
+          },
+          "PIPA-REMOLQUES": {
+            "HALF": {
+              "ALL_POSITION": {
+                "statistics": 2,
+                "percent": 4.081632653061225
+              },
+              "DIRECTIONAL": {
+                "statistics": 3,
+                "percent": 6.122448979591836
+              },
+              "TRACTION": {
+                "statistics": 44,
+                "percent": 89.79591836734694
+              },
+              "statistics": 49,
+              "percent": 74.24242424242425
+            },
+            "HIGH": {
+              "TRACTION": {
+                "statistics": 6,
+                "percent": 100
+              },
+              "statistics": 6,
+              "percent": 9.090909090909092
+            },
+            "LOW": {
+              "DIRECTIONAL": {
+                "statistics": 1,
+                "percent": 9.090909090909092
+              },
+              "TRACTION": {
+                "statistics": 10,
+                "percent": 90.9090909090909
+              },
+              "statistics": 11,
+              "percent": 16.666666666666668
+            },
+            "statistics": 66,
+            "percent": 6.291706387035272
+          },
+          "REMOLQUES": {
+            "HALF": {
+              "ALL_POSITION": {
+                "statistics": 122,
+                "percent": 85.91549295774648
+              },
+              "DIRECTIONAL": {
+                "statistics": 2,
+                "percent": 1.408450704225352
+              },
+              "TRACTION": {
+                "statistics": 5,
+                "percent": 3.5211267605633805
+              },
+              "TRAILER": {
+                "statistics": 13,
+                "percent": 9.154929577464788
+              },
+              "statistics": 142,
+              "percent": 85.02994011976048
+            },
+            "HIGH": {
+              "ALL_POSITION": {
+                "statistics": 5,
+                "percent": 55.55555555555556
+              },
+              "DIRECTIONAL": {
+                "statistics": 1,
+                "percent": 11.11111111111111
+              },
+              "TRACTION": {
+                "statistics": 2,
+                "percent": 22.22222222222222
+              },
+              "TRAILER": {
+                "statistics": 1,
+                "percent": 11.11111111111111
+              },
+              "statistics": 9,
+              "percent": 5.389221556886228
+            },
+            "LOW": {
+              "ALL_POSITION": {
+                "statistics": 10,
+                "percent": 62.5
+              },
+              "DIRECTIONAL": {
+                "statistics": 2,
+                "percent": 12.5
+              },
+              "TRACTION": {
+                "statistics": 3,
+                "percent": 18.75
+              },
+              "TRAILER": {
+                "statistics": 1,
+                "percent": 6.25
+              },
+              "statistics": 16,
+              "percent": 9.580838323353293
+            },
+            "statistics": 167,
+            "percent": 15.919923736892278
+          },
+          "TRACTOS": {
+            "HALF": {
+              "ALL_POSITION": {
+                "statistics": 23,
+                "percent": 3.9316239316239314
+              },
+              "DIRECTIONAL": {
+                "statistics": 83,
+                "percent": 14.188034188034187
+              },
+              "TRACTION": {
+                "statistics": 475,
+                "percent": 81.19658119658119
+              },
+              "TRAILER": {
+                "statistics": 4,
+                "percent": 0.6837606837606838
+              },
+              "statistics": 585,
+              "percent": 80.57851239669421
+            },
+            "HIGH": {
+              "DIRECTIONAL": {
+                "statistics": 24,
+                "percent": 26.373626373626372
+              },
+              "TRACTION": {
+                "statistics": 66,
+                "percent": 72.52747252747253
+              },
+              "TRAILER": {
+                "statistics": 1,
+                "percent": 1.098901098901099
+              },
+              "statistics": 91,
+              "percent": 12.534435261707989
+            },
+            "LOW": {
+              "ALL_POSITION": {
+                "statistics": 20,
+                "percent": 40
+              },
+              "DIRECTIONAL": {
+                "statistics": 6,
+                "percent": 12
+              },
+              "TRACTION": {
+                "statistics": 21,
+                "percent": 42
+              },
+              "TRAILER": {
+                "statistics": 3,
+                "percent": 6
+              },
+              "statistics": 50,
+              "percent": 6.887052341597796
+            },
+            "statistics": 726,
+            "percent": 69.20877025738798
+          },
+          "statistics": 1049,
+          "percent": 100
+        },
+        "statistics": 1049,
+        "percent": 100
+      },
+      "statistics": 1049,
+      "percent": 100
+    }
+  }
+}

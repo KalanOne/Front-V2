@@ -1,0 +1,14 @@
+{
+  "report_last_movement": {
+    "label": "Last Movement",
+    "last_position": "Last position",
+    "renovated_number": "Renovated number",
+    "type": "Type",
+    "shipping_date": "Shipping date to",
+    "depth_model": "$t(common:model) tread depth",
+    "depth_last_revision": "Tread depth at last revision",
+    "wasted_rubber": "wasted rubber",
+    "cost": "Cost - MM",
+    "disposal_loss": "Disposal loss"
+  }
+}

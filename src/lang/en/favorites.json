@@ -1,0 +1,27 @@
+{
+  "favorites": {
+    "report_tire_pile_depth": "Pile report",
+    "report_tire_pile_travel": "Km pile report",
+    "report_tire_statistics": "$t(common:tire) stats",
+    "report_km_performance": "Best performance",
+    "report_km_projection": "Km Projection Report",
+    "report_tire_summary": "Summary",
+    "report_km_dynamic_cost": "Cost per $t(common:model)",
+    "report_renewability_index": "Renewability index",
+    "report_review_performance": "$t(common:review) Performance",
+    "report_tire_po_savings": "Potential losses",
+    "report_tire_damage_wear": "$t(common:damage_plural) and $t(common:wear_plural)",
+    "report_tire_warehouse": "$t(common:warehouse) $t(common:tire_plural)",
+    "report_user_review": "$t(common:user) $t(common:review) report",
+    "report_purchase": "Purchase report",
+    "report_last_movement": "Last Movement",
+    "report_vehicle_semaphore": "Semaphore Report",
+    "report_tire_revitalized": "$t(common:tire) retread report",
+    "report_tire_repair": "$t(common:tire) repair report",
+    "report_summary_mount": "Mounted $t(common:tire_plural) report",
+    "report_summary_warehouse": "Dismounted $t(common:tire_plural) report",
+    "report_tire_mount": "Mount $t(common:tire_plural) report"
+  },
+  "save_favorite": "Save as favorite",
+  "remove_favorite": "Remove from favorites"
+}

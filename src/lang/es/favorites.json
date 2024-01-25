@@ -1,0 +1,27 @@
+{
+  "favorites": {
+    "report_tire_pile_depth": "Pila de Desecho",
+    "report_tire_pile_travel": "Km de pila",
+    "report_tire_statistics": "Estadísticas de $t(common:tire_plural)",
+    "report_km_performance": "Mejor rendimiento",
+    "report_km_projection": "Proyección de km",
+    "report_tire_summary": "Resumen",
+    "report_km_dynamic_cost": "Costo por $t(common:model)",
+    "report_renewability_index": "Índice de renovabilidad",
+    "report_review_performance": "Desempeño de $t(common:tire_plural)",
+    "report_tire_po_savings": "Perdidas potenciales",
+    "report_tire_damage_wear": "$t(common:damage_plural) y $t(common:wear_plural)",
+    "report_tire_warehouse": "$t(common:tire_plural) almacenados",
+    "report_user_review": "$t(common:review_plural) por $t(common:user)",
+    "report_purchase": "Compras sugeridas",
+    "report_last_movement": "Último movimiento",
+    "report_vehicle_semaphore": "Reporte semáforo",
+    "report_tire_revitalized": "Reporte de $t(common:tire_plural) revitalizados",
+    "report_tire_repair": "Reporte de $t(common:tire_plural) reparados",
+    "report_summary_mount": "Reporte de montajes realizados",
+    "report_summary_warehouse": "Reporte de $t(common:tire_plural) desmontados",
+    "report_tire_mount": "Montaje de $t(common:tire_plural)"
+  },
+  "save_favorite": "Marcar como favorito",
+  "remove_favorite": "Quitar de favoritos"
+}

@@ -1,0 +1,14 @@
+{
+  "report_last_movement": {
+    "label": "Último Movimiento",
+    "last_position": "Última Posición",
+    "renovated_number": "Número renovado",
+    "type": "Tipo",
+    "shipping_date": "Fecha de envío a",
+    "depth_model": "Profundidad de huella del $t(common:model)",
+    "depth_last_revision": "Profundidad de huella en ultima $t(common:review)",
+    "wasted_rubber": "Caucho desperdiciado",
+    "cost": "Costo - MM",
+    "disposal_loss": "Pérdida por desecho"
+  }
+}

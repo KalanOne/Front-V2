@@ -1,0 +1,26 @@
+{
+  "report_warehouse": {
+    "percent": "Percent",
+    "movement_date": "Storage date",
+    "model": "$t(common:model)",
+    "size": "$t(common:size)",
+    "depth": "Depth",
+    "depth_condition": {
+      "good_condition": "Good condition",
+      "critical_withdrawal": "Critical withdrawal",
+      "scheduled_withdrawal": "Scheduled withdrawal"
+    },
+    "tire_condition": {
+      "original_new": "Original New",
+      "original_used": "Original Used",
+      "retread_new": "Retreaded New",
+      "retread_used": "Retreaded Used"
+    },
+    "tire_application": {
+      "all_position": "All Position",
+      "directional": "Steer",
+      "traction": "Drive",
+      "trailer": "Trailer"
+    }
+  }
+}

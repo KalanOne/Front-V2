@@ -1,0 +1,183 @@
+{
+  "filter": {
+    "status": {
+      "corporate": "$t(common:corporate) status",
+      "brand": "$t(common:brand) status",
+      "size": "$t(common:size) status",
+      "company": "$t(common:company) status",
+      "division": "$t(common:division) status",
+      "subsidiary": "$t(common:subsidiary) status",
+      "association": "Association status",
+      "provider": "$t(common:provider) status",
+      "wear": "$t(common:wear) status",
+      "driver": "$t(common:driver) status",
+      "user": "$t(common:user) status",
+      "warehouse": "$t(common:warehouse) status",
+      "retirement_cause": "Retirement $t(common:cause) status",
+      "gps": "Gps status",
+      "damage": "$t(common:damage) status",
+      "revitalized_tire_model": "Revitalized $t(common:tire) $t(common:model) status",
+      "alert": "$t(common:alert) status",
+      "rfid": "Rfid status",
+      "tire_model": "$t(common:tire) $t(common:model) status",
+      "vehicle_type": "$t(common:vehicle) type status",
+      "vehicle": "$t(common:vehicle) status"
+    }
+  },
+  "update": {
+    "corporate": "Update $t(common:corporate)",
+    "brand": "Update $t(common:brand)",
+    "company": "Update $t(common:company)",
+    "subsidiary": "Update $t(common:subsidiary)",
+    "association": "Update Association",
+    "size": "Update $t(common:size)",
+    "division": "Update $t(common:division)",
+    "tire_wear": "Update $t(common:tire) $t(common:wear)",
+    "user_subsidiary": "$t(common:user) to $t(common:subsidiary) link",
+    "provider": "Update $t(common:provider)",
+    "wear": "Update $t(common:wear)",
+    "driver": "Update $t(common:driver)",
+    "user": "Update $t(common:user)",
+    "user_role": "Update $t(common:user) role",
+    "warehouse": "Update $t(common:warehouse)",
+    "retirement_cause": "Update Retirement $t(common:cause)",
+    "gps": "Update Gps",
+    "damage": "Update $t(common:damage)",
+    "revitalized_tire_model": "Update Revitalized $t(common:tire) $t(common:model)",
+    "alert": "Update $t(common:alert)",
+    "rfid": "Update Rfid",
+    "vehicle_type": "Update $t(common:vehicle) type",
+    "company_policy": "Update $t(common:policy_plural)",
+    "tire_model": "Update $t(common:tire) $t(common:model)",
+    "vehicle": "Update $t(common:vehicle)",
+    "policy": "Update $t(common:policy)",
+    "tire": "Update $t(common:tire)",
+    "tire_review": "Update last $t(common:tire) $t(common:review)",
+    "vehicle_review": "Update last $t(common:vehicle) $t(common:review)",
+    "helmet_value": "Update helmet value"
+  },
+  "link": {
+    "tire_with_division": "Link $t(common:tire) with $t(common:division)",
+    "tire_with_rfid": "Link $t(common:tire) with rfid",
+    "division": "Link $t(common:division)",
+    "vehicle_with_gps": "Link gps with $t(common:vehicle)"
+  },
+  "new": {
+    "corporate": "New $t(common:corporate)",
+    "brand": "New $t(common:brand)",
+    "size": "New $t(common:size)",
+    "company": "New $t(common:company)",
+    "division": "New $t(common:division)",
+    "subsidiary": "New $t(common:subsidiary)",
+    "association": "New Association",
+    "alert": "New $t(common:alert)",
+    "provider": "New $t(common:provider)",
+    "wear": "New $t(common:wear)",
+    "driver": "New $t(common:driver)",
+    "user": "New $t(common:user)",
+    "user_role": "New $t(common:user) role",
+    "warehouse": "New $t(common:warehouse)",
+    "retirement_cause": "New Retirement $t(common:cause)",
+    "gps": "New Gps",
+    "damage": "New $t(common:damage)",
+    "revitalized_tire_model": "New Revitalized $t(common:tire) $t(common:model)",
+    "rfid": "New Rfid",
+    "tire_model": "New $t(common:tire) $t(common:model)",
+    "vehicle_type": "New $t(common:vehicle) type",
+    "vehicle": "New $t(common:vehicle)",
+    "policy": "New $t(common:policy)",
+    "tire": "New $t(common:tire)",
+    "tire_review": "New $t(common:tire) $t(common:review)",
+    "helmet_value": "New helmet value"
+  },
+  "show": {
+    "alert": "$t(common:alert)",
+    "link": {
+      "gps_with_vehicle": "$t(common:vehicle) link with gps",
+      "gps_vehicle_link": "Gps $t(common:vehicle) link",
+      "user_subsidiary": {
+        "with_user": "$t(common:user) $t(common:subsidiary) link",
+        "with_subsidiary": "$t(common:subsidiary) $t(common:user) link"
+      },
+      "subsidiary_driver": {
+        "subsidiary": "$t(common:driver) $t(common:subsidiary) link",
+        "driver": "$t(common:subsidiary) $t(common:driver) link"
+      }
+    },
+    "tire": "$t(common:tire) Information",
+    "inspection": "$t(common:inspection)"
+  },
+  "history": {
+    "tire": {
+      "warehouse": "No $t(common:warehouse) history"
+    }
+  },
+  "warehouse_tire": "stored $t(common:tire)",
+  "register": {
+    "vehicles": "Register $t(common:vehicle_plural) by excel",
+    "tires": "Register $t(common:tire_plural) by excel",
+    "rfids": "Register rfids by excel"
+  },
+  "policy": {
+    "no_condition_policy": "No condition $t(common:policy_plural)"
+  },
+  "send": {
+    "revitalization": "Send to Retread",
+    "repair": "Send to Repair",
+    "pile": "Send to Pile",
+    "warehouse": "Send to $t(common:warehouse)",
+    "multiple_to_warehouse": "Send $t(common:tire_plural) to $t(common:warehouse)"
+  },
+  "mount": "Mount $t(common:tire) in position {position}",
+  "vehicle_inspection": "$t(common:inspection) of $t(common:vehicle)",
+  "vehicle_pressure_inspection": "Pressure $t(common:review) of $t(common:vehicle)",
+  "vehicle_identify_inspection": "Identify $t(common:inspection) of $t(common:vehicle)",
+  "mount_alerts": "Mount $t(common:alert_plural)",
+  "move": {
+    "vehicle": "Move $t(common:vehicle)",
+    "tire": "Move $t(common:tire)"
+  },
+  "tire_stats_report": "$t(common:tire) stats",
+  "pile_stats_report": "$t(common:tire) pile stats",
+  "best_performance_report": "Best performance",
+  "summary_report": "Summary",
+  "damages_wears": "$t(common:damage_plural) and $t(common:wear_plural)",
+  "dynamic_cost_report": "Cost per $t(common:model)",
+  "tire_alerts": "$t(common:tire) $t(common:alert_plural)",
+  "pile_summary_report": "Pile summary",
+  "pile_performance_report": "Pile performance",
+  "pile_report": "Pile report",
+  "renewability_index_report": "Renewability index",
+  "review_performance_report": "$t(common:review) Performance",
+  "mount_report": "Mount $t(common:tire_plural) report",
+  "report_warehouse": "$t(common:warehouse) $t(common:tire_plural)",
+  "potential_savings_report": "Potential losses",
+  "user_review_report": "$t(common:user) $t(common:review) report",
+  "km_projection_report": "Km Projection Report",
+  "purchase_report": "Purchase report",
+
+  "rotate": "Rotate $t(common:tire_plural)",
+
+  "vehicle_summary": "information on inspected and total fleet $t(common:vehicle_plural) by $t(common:vehicle) type",
+  "quantity_vehicle": "Number of $t(common:vehicle_plural) verified current report",
+  "quantity_tire": "Number of $t(common:tire_plural) verified current report",
+  "total_vehicles": "Total $t(common:vehicle_plural) in the fleet",
+  "total_tires": "Total $t(common:tire_plural) in the fleet",
+  "tire_info": "Information on total $t(common:tire_plural) in the fleet and those inspected, by type of application and by location",
+  "tires_by_application": "$t(common:tire_plural) by application",
+  "tires_by_location": "$t(common:tire_plural) by location",
+  "historic": "Historic",
+  "semaphore_report": "Semaphore Report",
+  "tire_revitalized_report": "$t(common:tire) retread report",
+  "summary_warehouse_report": "Dismounted $t(common:tire_plural) report",
+  "summary_mount_report": "Mounted $t(common:tire_plural) report",
+  "tire_repair_report": "$t(common:tire) repair report",
+
+  "graphs": {
+    "pile_by_responsible": "Pile by Reason",
+    "pile_by_responsible_cost": "Pile Cost by Reason",
+    "original_vs_renewed": "$t(common:tire) Purchases (Original vs Renewed)",
+    "vehicle_historic": "$t(common:vehicle) $t(common:inspection_plural)",
+    "review_performance": "$t(common:review) Performance"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dashboard": {
+    "summary": "Resumen",
+    "depth_semaphore": "Semáforo remanente",
+    "pressure_semaphore": "Semáforo de presión",
+    "tires_by_condition": "Neumáticos por condición",
+    "tires_by_application": "Neumáticos por aplicación",
+    "total": "Total",
+    "original_tires": "Originales",
+    "revitalized_tires": "Revitalizadas",
+    "tire_application": {
+      "options": {
+        "directional": "Direccional",
+        "trailer": "Remolque",
+        "all_position": "Toda posición",
+        "traction": "Tracción"
+      }
+    },
+    "performance": {
+      "number_damage": "$t(common:damage_plural)",
+      "punctures": "Ponchaduras",
+      "number_revitalizations": "Revitalizaciones",
+      "number_tires_pile": "Pila",
+      "number_tires_review": "$t(common:tire_plural) Revisados",
+      "number_tires": "$t(common:tire_plural) Totales",
+      "number_vehicles_review": "$t(common:vehicle_plural) Revisados",
+      "number_vehicles": "$t(common:vehicle_plural) Totales",
+      "number_review": "$t(common:review_plural)"
+    },
+    "savings": {
+      "pressure_savings": "Ahorros por Presión",
+      "revitalized_savings": "Ahorros por Revitalizado",
+      "total": "Ahorros Totales"
+    }
+  }
+}

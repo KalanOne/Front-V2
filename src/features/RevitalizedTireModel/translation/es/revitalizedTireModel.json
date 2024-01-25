@@ -1,0 +1,7 @@
+{
+  "revitalized_tire_model": "Modelos revitalizados",
+  "no_revitalized_tire_model": "Sin modelos revitalizados",
+  "permits": {
+    "create": "Sin permisos para crear modelos revitalizados de neumáticos"
+  }
+}

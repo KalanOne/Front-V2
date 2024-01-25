@@ -1,0 +1,207 @@
+{
+  "languages": {
+    "es": "Spanish",
+    "en": "English"
+  },
+  "text": {
+    "and": "and",
+    "or": "or"
+  },
+  "home": "Home",
+  "role": {
+    "label": "Role",
+    "root": "Root",
+    "manager": "Manager",
+    "chief_operations": "Chief operations",
+    "operator": "Operator",
+    "warehouse": "$t(common:warehouse)",
+    "reports": "Reports",
+    "checklist_operator": "Checklist operator",
+    "distributor": "Distributor"
+  },
+  "mounting": "Mounting",
+  "companies": "$t(common:company_plural)",
+  "no_companies": "No $t(common:company_plural)",
+  "warehouses": "$t(common:warehouse_plural)",
+  "no_warehouses": "No $t(common:warehouse_plural)",
+  "alerts": "$t(common:alert_plural)",
+  "no_alerts": "No $t(common:alert_plural)",
+  "corporates": "$t(common:corporate_plural)",
+  "no_corporates": "No $t(common:corporate_plural)",
+  "subsidiaries": "$t(common:subsidiary_plural)",
+  "no_subsidiaries": "No $t(common:subsidiary_plural)",
+  "associations": "Associations",
+  "no_associations": "No associations",
+  "drivers": "$t(common:driver_plural)",
+  "vehicles": "$t(common:vehicle_plural)",
+  "vehicle_review": "$t(common:vehicle) $t(common:review)",
+  "no_vehicles": "No $t(common:vehicle_plural)",
+  "no_vehicle_type_axles": "No $t(common:axle_plural) to $t(common:vehicle) type",
+  "users": "$t(common:user_plural)",
+  "no_users": "No $t(common:user_plural)",
+  "brands": "$t(common:brand_plural)",
+  "no_brands": "No $t(common:brand_plural)",
+  "size": "$t(common:size)",
+  "sizes": "Sizes",
+  "no_sizes": "No sizes",
+  "tire": "$t(common:tire)",
+  "tires": "$t(common:tire_plural)",
+  "no_tires": "No $t(common:tire_plural)",
+  "providers": "$t(common:provider_plural)",
+  "no_providers": "No $t(common:provider_plural)",
+  "wears": "$t(common:wear_plural)",
+  "no_wears": "No $t(common:wear_plural)",
+  "damages": "$t(common:damage_plural)",
+  "no_damages": "No $t(common:damage_plural)",
+  "no_tire_damages": "No $t(common:tire) $t(common:damage_plural)",
+  "roles": "Roles",
+  "subsidiary": "$t(common:subsidiary)",
+  "association": "Association",
+  "warehouse": "$t(common:warehouse)",
+  "driver": "$t(common:driver)",
+  "no_drivers": "No $t(common:driver_plural)",
+  "vehicle": "$t(common:vehicle)",
+  "gps": "Gps",
+  "no_gps": "No gps",
+  "division": "$t(common:division)",
+  "divisions": "$t(common:division_plural)",
+  "no_divisions": "No $t(common:division_plural)",
+  "history_user": "$t(common:user) history of",
+  "retirement_causes": "Retirement $t(common:cause_plural)",
+  "no_retirement_causes": "No retirement $t(common:cause_plural)",
+  "no_image": "No image",
+
+  "tire_models": "$t(common:tire) $t(common:model_plural)",
+  "no_tire_models": "No $t(common:tire) $t(common:model_plural)",
+  "revitalized_tire_models": "Revitalized $t(common:tire) $t(common:model)",
+  "no_revitalized_tire_models": "No Revitalized $t(common:tire) $t(common:model)",
+  "structure_types": {
+    "truck_tractor": "Truck tractor",
+    "truck": "Truck",
+    "box": "Box",
+    "dolly": "Dolly",
+    "van": "Van"
+  },
+  "vehicles_types": "$t(common:vehicle) types",
+  "no_vehicles_types": "No $t(common:vehicle) types",
+  "damage": "$t(common:damage)",
+  "tire_damage": "$t(common:tire) $t(common:damage)",
+  "update_tire_damage": "Update $t(common:tire) $t(common:damage)",
+  "tire_wear": "$t(common:tire) $t(common:wear)",
+  "information": "Information",
+  "filter": "Filter",
+
+  "approved": {
+    "singular": {
+      "male": "Approved",
+      "female": "Approved"
+    },
+    "plural": {
+      "male": "Approved",
+      "female": "Approved"
+    }
+  },
+
+  "not_approved": {
+    "singular": {
+      "male": "Not Approved",
+      "female": "Not Approved"
+    },
+    "plural": {
+      "male": "Not Approved",
+      "female": "Not Approved"
+    }
+  },
+
+  "enabled": {
+    "singular": {
+      "male": "Enabled",
+      "female": "Enabled"
+    },
+    "plural": {
+      "male": "Enabled",
+      "female": "Enabled"
+    }
+  },
+
+  "disabled": {
+    "singular": {
+      "male": "Disabled",
+      "female": "Disabled"
+    },
+    "plural": {
+      "male": "Disabled",
+      "female": "Disabled"
+    }
+  },
+
+  "approve": "Approve",
+  "disapprove": "Disapprove",
+  "enable": "Enable",
+  "disable": "Disable",
+  "view": "View",
+  "link_vehicle": "Link $t(common:vehicle)",
+  "approval_status": "Approval status",
+  "link_subsidiary": "Link $t(common:subsidiary)",
+  "store": "Store",
+  "cycle": "Cycle",
+  "repair_tire": "Send for $t(common:tire) repair",
+  "gps_geofence": "Geofence",
+  "no_gps_geofence": "No geofences",
+  "inside": "Inside",
+  "outside": "Outside",
+  "rfid": "Rfid",
+  "no_rfid": "No rfid",
+  "link_rfid": "Link rfid",
+  "confirm": "Confirm",
+  "disabled_user": "Disabled $t(common:user)",
+  "company_policies": "$t(common:company) $t(common:policy_plural)",
+  "policies": "$t(common:policy_plural)",
+  "policies_application": "Application $t(common:policy_plural)",
+  "condition_policies": "Condition $t(common:policy_plural)",
+  "pressure_policies": "Pressure $t(common:policy_plural)",
+  "no_pressure_policies": "No pressure $t(common:policy_plural)",
+  "depth_policies": "Depth $t(common:policy_plural)",
+  "no_depth_policies": "No depth $t(common:policy_plural)",
+  "application_tire_policies": "Application $t(common:tire) $t(common:policy_plural)",
+  "model_variation_policies": "Pressure $t(common:policy_plural) by $t(common:model)",
+  "no_model_variation_policies": "No pressure $t(common:policy_plural) by $t(common:model)",
+  "tire_history": "Movement history",
+  "tire_review_history": "$t(common:tire) $t(common:review) history",
+  "damage_list": "$t(common:damage) list",
+  "wear_list": "$t(common:wear) list",
+  "brand": "$t(common:brand)",
+  "tire_model": "$t(common:tire) $t(common:model)",
+  "revitalized_brand": "Retread $t(common:brand)",
+  "revitalized_model": "Retread $t(common:model)",
+  "selected_filters": "Selected filters:",
+  "selected_tire": "Selected $t(common:tire):",
+  "position": "Position",
+  "depth_min": "Min depth",
+  "depth_max": "Max depth",
+  "no_choice": "No choice",
+  "reports": "Reports",
+  "set": "Set",
+  "responsibles": "Responsibles",
+  "vehicle_km": "Vehicle km",
+  "tire_reviews": "$t(common:tire) $t(common:review_plural)",
+  "support": "Contact support",
+  "alerts_panel": "$t(common:alert_plural) panel",
+  "quantity_tire": "Quantity $t(common:tire)",
+  "average_days": "Average days",
+  "average_days_repair": "Average days",
+  "days": "Days",
+  "helmet_values": "Helmet values",
+  "no_model_helmet_values": "No helmet values by $t(common:model)",
+  "commissioned_drivers": "Commissioned $t(common:driver_plural)",
+  "checklist": "Checklist",
+  "no_checklists": "No checklists",
+  "favorites": "Favorites",
+  "favorite_reports": "Favorite Reports",
+  "concepts": "Concepts",
+  "concept": "Concept",
+  "no_concepts": "No concepts",
+  "blocks": "Blocks",
+  "no_blocks": "No blocks",
+  "block": "Block"
+}

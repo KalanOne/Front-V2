@@ -1,0 +1,15 @@
+{
+    "originalModel": {
+        "title": "Modelos de neumáticos",
+        "no_tire_model": "Sin modelos de neumáticos",
+        "permits": {
+            "create": "Sin permisos para crear modelos de neumáticos"
+        }
+    },
+    "originalModelVariation": {
+        "no_tire_model_variation": "Sin variaciones de modelo",
+        "permits": {
+            "create": "Sin permisos para crear variaciones del modelo"
+        }
+    }
+}

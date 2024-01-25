@@ -1,0 +1,14 @@
+{
+  "login": {
+    "title": "Login",
+    "sub_title": "Enter your credentials to log in",
+    "form": {
+      "enter_button": "Enter",
+      "change_password_button": "Forgot your Password?"
+    },
+    "messages": {
+      "login": "Done, you have successfully logged in.",
+      "error": "Error, please check your credentials and try again."
+    }
+  }
+}

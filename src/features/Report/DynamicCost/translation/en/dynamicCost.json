@@ -1,0 +1,28 @@
+{
+  "dynamic_cost_report": {
+    "tabs": {
+      "general": "General",
+      "original": "Original",
+      "revitalized": "Revitalized",
+      "cycle": "Cycle"
+    },
+    "cost_report": "Dynamic cost report by $t(common:tire) $t(common:model)",
+    "this_report_shows": "This report shows the cost of a $t(common:tire) of a certain $t(common:model), in addition to the cost per km, per mm and performance km/mm.",
+    "only_tires": "Only $t(common:tire_plural) (no spare) that have traveled more than 1000 km in their current stage (original or revitalized) are taken into account.",
+    "tire_cost": "$t(common:tire) cost",
+    "tires": "$t(common:tire_plural)",
+
+    "cost_of_tires": "Cost of $t(common:tire_plural) according to their Original $t(common:model_plural)",
+    "tire_cost_revitalized": "$t(common:tire) Cost Based on Your Revitalized $t(common:model_plural)",
+    "cost_first_cycle": "Cost of $t(common:tire_plural) on your first cycle",
+    "cost_second_cycle": "Cost of $t(common:tire_plural) in your second cycle",
+    "cost_third_cycle": "Cost of $t(common:tire_plural) in your third cycle",
+    "cost_fourth_cycle": "Cost of $t(common:tire_plural) in your fourth cycle",
+    "originals": "Originals",
+    "options": {
+      "both": "Both",
+      "warehouse": "$t(common:warehouse_plural)",
+      "mount": "Mount"
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "login": "Listo, ha iniciado sesión con éxito.",
+  "confirm": "Confirmar",
+  "delete": {
+    "corporate": "¿Estas seguro de eliminar el $t(common:corporate)?",
+    "brand": "¿Estas seguro de eliminar la $t(common:brand)?",
+    "size": "¿Estas seguro de eliminar la $t(common:size)?",
+    "company": "¿Estas seguro de eliminar la $t(common:company)?",
+    "division": "¿Estas seguro de eliminar la $t(common:division)",
+    "subsidiary": "¿Estas seguro de eliminar la $t(common:subsidiary)?",
+    "association": "¿Estas seguro de eliminar el transportista?",
+    "provider": "¿Estas seguro de eliminar el $t(common:provider)?",
+    "wear": "¿Estas seguro de eliminar el $t(common:wear)?",
+    "driver": "¿Estas seguro de eliminar al $t(common:driver)?",
+    "warehouse": "¿Estas seguro de eliminar el $t(common:warehouse)?",
+    "retirement_cause": "¿Estas seguro de eliminar la $t(common:cause) de retiro?",
+    "gps": "¿Estas seguro de eliminar el gps?",
+    "damage": "¿Estas seguro de eliminar el tipo de $t(common:damage)?",
+    "alert": "¿Estas seguro de eliminar la $t(common:alert)?",
+    "rfid": "¿Estas seguro de eliminar el rfid?",
+    "vehicle_type": "¿Estas seguro de eliminar el tipo de $t(common:vehicle)?",
+    "pressure_policy": "¿Estas seguro de eliminar la $t(common:policy) de presión?",
+    "depth_policy": "¿Estas seguro de eliminar la $t(common:policy) de profundidad?",
+    "link_tire_with_warehouse": "¿Estas seguro de sacar el $t(common:tire) del $t(common:warehouse)?",
+    "link_user_with_corporate": "¿Estas seguro de desvincular el $t(common:user) del $t(common:corporate)?",
+    "link_user_with_company": "¿Estas seguro de desvincular el $t(common:user) de la $t(common:company)?",
+    "link_user_with_subsidiary": "¿Estas seguro de desvincular el $t(common:user) de la $t(common:subsidiary)?",
+    "link_subsidiary": "¿Estas seguro de desvincular la $t(common:subsidiary)?",
+    "link_driver": "¿Estas seguro de desvincular el $t(common:driver)?",
+    "link_warehouse": "¿Estas seguro de desvincular el $t(common:warehouse)?",
+    "link_tire": "¿Estas seguro de desvincular el $t(common:tire)?",
+    "link_vehicle": "¿Estas seguro de desvincular el $t(common:vehicle)?",
+    "tire_wear": "¿Estas seguro de eliminar el $t(common:wear) del $t(common:tire)?",
+    "user": "¿Estas seguro de eliminar el $t(common:user)?",
+    "user_role": "¿Estas seguro de eliminar el rol de $t(common:user)?",
+    "tire_model": "¿Estas seguro de eliminar el $t(common:model) de $t(common:tire)?",
+    "revitalized_tire_model": "¿Estas seguro de eliminar el $t(common:model) de $t(common:tire) revitalizado?",
+    "vehicle": "¿Estas seguro de eliminar el $t(common:vehicle)?",
+    "condition_policy": "¿Estas seguro de eliminar la $t(common:policy) de condición?",
+    "tire": "¿Estas seguro de eliminar el $t(common:tire)?",
+    "model_pressure_policy": "¿Estas seguro de eliminar la $t(common:policy) de presión por $t(common:model)?",
+    "helmet_value": "¿Estas seguro de eliminar el valor del casco?",
+    "vehicle_review": "¿Estas seguro de eliminar la $t(common:review) de $t(common:vehicle)?"
+  },
+  "deleted": {
+    "link_tire_with_warehouse": "Listo, el $t(common:tire) fue sacado del $t(common:warehouse) con éxito",
+    "link_user_with_corporate": "Listo, se desvinculó el $t(common:user) del $t(common:corporate)",
+    "link_user_with_company": "Listo, se desvinculó el $t(common:user) de la $t(common:company)",
+    "link_user_with_subsidiary": "Listo, se desvinculó el $t(common:user) de la $t(common:subsidiary)",
+    "link_vehicle": "Listo, se desvinculó el $t(common:vehicle)",
+    "link_driver": "Listo, el $t(common:driver) fue desvinculado con éxito",
+    "link_warehouse": "Listo, el $t(common:warehouse) fue desvinculado con éxito",
+    "link_tire": "Listo, el $t(common:tire) fue desvinculado con éxito",
+    "tire_wear": "Listo, se eliminó el $t(common:wear) al $t(common:tire) con éxito",
+    "link_subsidiary": "Listo, la $t(common:subsidiary) fue desvinculada con éxito",
+    "condition_policy": "Listo, la $t(common:policy) de condición fue eliminada",
+    "pressure_policy": "Listo, se eliminó la la $t(common:policy) de presión con éxito",
+    "depth_policy": "Listo, se eliminó la la $t(common:policy) de profundidad con éxito",
+    "model_pressure_policy": "Listo, se eliminó la la $t(common:policy) de presión por $t(common:model) con éxito",
+    "helmet_value": "Listo, se eliminó el valor del casco con éxito",
+    "vehicle_review": "Listo, la $t(common:review) de $t(common:vehicle) fue eliminada con éxito"
+  },
+  "update": {
+    "same_vehicle": "El $t(common:vehicle) es el mismo que el anterior",
+    "vehicle_review_policy_denied": "Las $t(common:policy_plural) de la $t(common:subsidiary) no te permiten editar una $t(common:review)",
+    "tire_review_policy_denied": "Las $t(common:policy_plural) de la $t(common:subsidiary) no te permiten editar una $t(common:review) de $t(common:tire)",
+    "vehicle_review": "¿Estas seguro de actualizar la $t(common:review) con el kilometraje {odometer}?"
+  },
+  "updated": {
+    "user_roles": "Listo, los roles se actualizaron con éxito",
+    "tire_wear": "Listo, se actualizó el $t(common:wear) del $t(common:tire) con éxito",
+    "vehicle_changed": "Listo, el $t(common:vehicle) ha sido cambiado con éxito",
+    "corporate": "Listo, se actualizó el $t(common:corporate) con éxito",
+    "brand": "Listo, se actualizó la $t(common:brand) con éxito",
+    "size": "Listo, se actualizó la $t(common:size) con éxito",
+    "company": "Listo, se actualizó la $t(common:company) con éxito",
+    "division": "Listo, se actualizó la $t(common:division) con éxito",
+    "subsidiary": "Listo, se actualizó la $t(common:subsidiary) con éxito",
+    "association": "Listo, se actualizó el transportista con éxito",
+    "provider": "Listo, se actualizó el $t(common:provider) con éxito",
+    "wear": "Listo, se actualizó el $t(common:wear) con éxito",
+    "driver": "Listo, se actualizó el $t(common:driver) con éxito",
+    "user": "Listo, se actualizó el $t(common:user) con éxito",
+    "user_role": "Listo, se actualizó el rol de $t(common:user) con éxito",
+    "warehouse": "Listo, se actualizó el $t(common:warehouse) con éxito",
+    "retirement_cause": "Listo, se actualizó la $t(common:cause) de retiro con éxito",
+    "gps": "Listo, se actualizó el gps con éxito",
+    "damage": "Listo, se actualizó el tipo de $t(common:damage) con éxito",
+    "revitalized_tire_model": "Listo, se actualizó el $t(common:model) de $t(common:tire) revitalizado con éxito",
+    "alert": "Listo, se actualizó la $t(common:alert) con éxito",
+    "rfid": "Listo, se actualizó el rfid con éxito",
+    "vehicle_type": "Listo, se actualizó el tipo de $t(common:vehicle) con éxito",
+    "pressure_policy": "Listo, se actualizó la $t(common:policy) de presión con éxito",
+    "depth_policy": "Listo, se actualizó la $t(common:policy) de profundidad con éxito",
+    "company_policy": "Listo, las $t(common:policy_plural) se actualizaron con éxito",
+    "tire_model": "Listo, se actualizó el $t(common:model) de $t(common:tire) con éxito",
+    "vehicle": "Listo, se actualizó el $t(common:vehicle) con éxito",
+    "policy": "Listo, se actualizó la $t(common:policy) de condición",
+    "tire": "Listo, se actualizó el $t(common:tire) con éxito",
+    "model_pressure_policy": "Listo, se actualizó la $t(common:policy) de presión por $t(common:model) con éxito",
+    "tire_pressure": "Listo, se actualizaron las presiones con éxito",
+    "tire_review": "Listo, actualizó la $t(common:review) de $t(common:tire) con éxito",
+    "vehicle_review": "Listo, se actualizó la $t(common:review) de $t(common:vehicle) con éxito",
+    "helmet_value": "Listo, se actualizó el valor del casco con éxito"
+  },
+  "created": {
+    "corporate": "Listo, se creó un nuevo $t(common:corporate) con éxito",
+    "brand": "Listo, se creó una nueva $t(common:brand) con éxito",
+    "size": "Listo, se creó una nueva $t(common:size) con éxito",
+    "company": "Listo, se creó una nueva $t(common:company) con éxito",
+    "subsidiary": "Listo, se creó una nueva $t(common:subsidiary) con éxito",
+    "association": "Listo, se creó un nuevo Transportista con éxito",
+    "provider": "Listo, se creó una nuevo $t(common:provider) con éxito",
+    "division": "Listo, se creó una nueva $t(common:division) con éxito",
+    "driver": "Listo, se creó un nuevo $t(common:driver) con éxito",
+    "damage": "Listo, se creó un nuevo Tipo de $t(common:damage) con éxito",
+    "user": "Listo, se creó un nuevo $t(common:user) con éxito",
+    "user_role": "Listo, se asignó un nuevo rol al $t(common:user) con éxito",
+    "revitalized_tire_model": "Listo, se creó un nuevo $t(common:model) de $t(common:tire) revitalizado con éxito",
+    "alert": "Listo, se creo una nueva $t(common:alert) con éxito",
+    "wear": "Listo, se creó un nuevo $t(common:wear) con éxito",
+    "retirement_cause": "Listo se creó una nueva $t(common:cause) de retiro con éxito",
+    "rfid": "Listo, se creó un nuevo rfid con éxito",
+    "warehouse": "Listo, se creó un nuevo $t(common:warehouse) con éxito",
+    "gps": "Listo, se creó un nuevo gps con éxito",
+    "tire_model": "Listo, se creó un nuevo $t(common:model) de $t(common:tire) con éxito",
+    "vehicle_type": "Listo, se creó un nuevo tipo de $t(common:vehicle) con éxito",
+    "pressure_policy": "Listo, se creó una nueva $t(common:policy) de presión con éxito",
+    "depth_policy": "Listo, se creó una nueva $t(common:policy) de profundidad con éxito",
+    "vehicle": "Listo, se creó un nuevo $t(common:vehicle) con éxito",
+    "policy": "Listo, se creó una nueva $t(common:policy) de condición",
+    "tire": "Listo, se creó un nuevo $t(common:tire) con éxito",
+    "tires": "Listo, se crearon los $t(common:tire_plural) con éxito",
+    "vehicle_review": "Listo, se creó una nueva $t(common:review) de $t(common:vehicle)",
+    "model_pressure_policy": "Listo, se creó una nueva $t(common:policy) de presión por $t(common:model) con éxito",
+    "tire_damage": "Listo, se registraron los $t(common:damage_plural) al $t(common:tire) con éxito",
+    "tire_wear": "Listo, se registraron los $t(common:wear_plural) al $t(common:tire) con éxito",
+    "tire_review": "Listo, se creó una nueva $t(common:review) de $t(common:tire) con éxito",
+    "helmet_value": "Listo, se registro el valor del casco con éxito"
+  },
+  "change_status": {
+    "corporate": {
+      "enable": "¿Estas seguro de habilitar el $t(common:corporate)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:corporate)?"
+    },
+    "brand": {
+      "enable": "¿Estas seguro de habilitar la $t(common:brand)?",
+      "disable": "¿Estas seguro de deshabilitar la $t(common:brand)?"
+    },
+    "size": {
+      "enable": "¿Estas seguro de habilitar la $t(common:size)?",
+      "disable": "¿Estas seguro de deshabilitar la $t(common:size)?"
+    },
+    "company": {
+      "enable": "¿Estas seguro de habilitar la $t(common:company)?",
+      "disable": "¿Estas seguro de deshabilitar la $t(common:company)?"
+    },
+    "division": {
+      "enable": "¿Estas seguro de habilitar la $t(common:division)?",
+      "disable": "¿EStas seguro de deshabilitar la $t(common:division)?"
+    },
+    "subsidiary": {
+      "enable": "¿Estas seguro de habilitar la $t(common:subsidiary)?",
+      "disable": "¿Estas seguro de deshabilitar la $t(common:subsidiary)?"
+    },
+    "association": {
+      "enable": "¿Estas seguro de habilitar el transportista?",
+      "disable": "¿Estas seguro de deshabilitar el transportista?"
+    },
+    "provider": {
+      "enable": "¿Estas seguro de habilitar el $t(common:provider)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:provider)?"
+    },
+    "wear": {
+      "enable": "¿Estas seguro de habilitar el $t(common:wear)?",
+      "disable": "¿EStas seguro de deshabilitar el $t(common:wear)?"
+    },
+    "driver": {
+      "enable": "¿Estas seguro de habilitar al $t(common:driver)?",
+      "disable": "¿Estas seguro de deshabilitar al $t(common:driver)?"
+    },
+    "user": {
+      "enable": "¿Estas seguro de habilitar el $t(common:user)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:user)?"
+    },
+    "warehouse": {
+      "enable": "¿Estas seguro de habilitar el $t(common:warehouse)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:warehouse)?"
+    },
+    "retirement_cause": {
+      "enable": "¿Estas seguro de habilitar la $t(common:cause) de retiro?",
+      "disable": "¿Estas seguro de deshabilitar la $t(common:cause) de retiro?"
+    },
+    "gps": {
+      "enable": "¿Estas seguro de habilitar el gps?",
+      "disable": "¿Estas seguro de deshabilitar el gps?"
+    },
+    "damage": {
+      "enable": "¿Estas seguro de habilitar el tipo de $t(common:damage)?",
+      "disable": "¿Estas seguro de deshabilitar el tipo de $t(common:damage)?"
+    },
+    "revitalized_tire_model": {
+      "enable": "¿Estas seguro de habilitar el $t(common:model) de $t(common:tire) revitalizado?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:model) de $t(common:tire) revitalizado?"
+    },
+    "alert": {
+      "enable": "¿Estas seguro de habilitar la $t(common:alert)?",
+      "disable": "¿Estas seguro de deshabilitar la $t(common:alert)?"
+    },
+    "rfid": {
+      "enable": "¿Estas seguro de habilitar el rfid?",
+      "disable": "¿Estas seguro de deshabilitar el rfid?"
+    },
+    "tire_model": {
+      "enable": "¿Estas seguro de habilitar el $t(common:model) de $t(common:tire)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:model) de $t(common:tire)?"
+    },
+    "vehicle_type": {
+      "enable": "¿Estas seguro de habilitar el tipo de $t(common:vehicle)?",
+      "disable": "¿Estas seguro de deshabilitar el tipo de $t(common:vehicle)?"
+    },
+    "vehicle": {
+      "enable": "¿Estas seguro de habilitar el $t(common:vehicle)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:vehicle)?"
+    },
+    "tire": {
+      "enable": "¿Estas seguro de habilitar el $t(common:tire)?",
+      "disable": "¿Estas seguro de deshabilitar el $t(common:tire)?"
+    }
+  },
+  "change_approved": {
+    "brand": {
+      "approve": "¿Estas seguro de aprobar la $t(common:brand)?",
+      "disapprove": "¿Estas seguro de desaprobar la $t(common:brand)?"
+    },
+    "model": {
+      "approve": "¿Estas seguro de aprobar el $t(common:model)?",
+      "disapprove": "¿Estas seguro de desaprobar el $t(common:model)?"
+    },
+    "size": {
+      "approve": "¿Estas seguro de aprobar la $t(common:size)?",
+      "disapprove": "¿Estas seguro de desaprobar la $t(common:size)?"
+    }
+  },
+  "reset": {
+    "odometer": "¿Estas seguro de reiniciar el odómetro?",
+    "difference": "¿Estas seguro de reiniciar la diferencia del gps?"
+  },
+  "sent": {
+    "revitalization": "Listo, se envió el $t(common:tire) a revitalización",
+    "repair": "Listo, se envió el $t(common:tire) a reparación",
+    "pile": "Listo, se envió el $t(common:tire) a pila de desecho",
+    "warehouse": "Listo, se envió el $t(common:tire) al $t(common:warehouse)",
+    "multiple_to_warehouse": "Listo, se enviarón los $t(common:tire_plural) al $t(common:warehouse)"
+  },
+  "linked": {
+    "tire_with_rfid": "Listo, se vinculó el rfid al $t(common:tire) con éxito",
+    "gps_with_vehicle": "Listo, se vinculó el gps al $t(common:vehicle) con éxito"
+  },
+  "mounted": "Listo, se montó el $t(common:tire) con éxito",
+  "finalize": "¿Estas seguro de finalizar la $t(common:review)?",
+  "finalized": "Listo, se ha finalizado la $t(common:inspection) con éxito",
+  "physical_difference": "¿Estas seguro de reportar que el $t(common:tire) no coincide?",
+  "pressure_adjustment": "¿Estas seguro de hacer el ajuste de presiones?",
+  "pressure_adjusted": "Listo, las presiones se ajustaron con éxito",
+  "identification_completed": "Listo, se completó la identificación de los $t(common:tire_plural) con éxito",
+  "rotate": "Rotar el $t(common:tire) de la posición {position} con el de la posición {position2}",
+  "single_rotate": "Cambiar el $t(common:tire) de la posición {position} a la posición {position2}",
+  "cycle": "Ya no es posible renovar el $t(common:tire), ya se cumplieron los ciclos definidos en la $t(common:policy)",
+  "cancel_movement": "¿Estas seguro de cancelar el movimiento actual?",
+  "notice_cancel_movement": "Se cancela el movimiento actual y el $t(common:tire) pasará al $t(common:warehouse) de movimientos cancelados",
+  "out_of_time_review": "Han pasado 24 hrs o más desde la última $t(common:review) (de rotaciones o movimientos), para efectuar movimientos debe registrar una nueva",
+  "travel_confirm": "El $t(common:travel) del $t(common:vehicle) será de {value} km, ¿Estas seguro de continuar?",
+  "vehicle_not_found": "El $t(common:vehicle) {vehicle} no fue encontrado",
+  "vehicle_in_process": "El $t(common:vehicle) {vehicle} tiene una $t(common:inspection) en proceso y debe ser finalizada, para habilitar montaje"
+}

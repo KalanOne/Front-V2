@@ -1,0 +1,183 @@
+{
+  "filter": {
+    "status": {
+      "corporate": "Estatus del $t(common:corporate)",
+      "brand": "Estatus de la $t(common:brand)",
+      "size": "Estatus de la $t(common:size)",
+      "company": "Estatus de la $t(common:company)",
+      "division": "Estatus de la $t(common:division)",
+      "warehouse": "Estatus del $t(common:warehouse)",
+      "subsidiary": "Estatus de la $t(common:subsidiary)",
+      "association": "Estatus del transportista",
+      "provider": "Estatus del $t(common:provider)",
+      "wear": "Estatus del $t(common:wear)",
+      "driver": "Estatus del $t(common:driver)",
+      "damage": "Estatus del tipo de $t(common:damage)",
+      "user": "Estatus del $t(common:user)",
+      "revitalized_tire_model": "Estatus del $t(common:model) de $t(common:tire) revitalizado",
+      "alert": "Estatus de la $t(common:alert)",
+      "retirement_cause": "Estatus de la $t(common:cause) de retiro",
+      "rfid": "Estatus de la rfid",
+      "gps": "Estatus del gps",
+      "tire_model": "Estatus del $t(common:model) de $t(common:tire)",
+      "vehicle_type": "Estatus del tipo de $t(common:vehicle)",
+      "vehicle": "Estatus del $t(common:vehicle)"
+    }
+  },
+  "update": {
+    "corporate": "Actualizar $t(common:corporate)",
+    "brand": "Actualizar $t(common:brand)",
+    "size": "Actualizar $t(common:size)",
+    "company": "Actualizar $t(common:company)",
+    "division": "Actualizar $t(common:division)",
+    "warehouse": "Actualizar $t(common:warehouse)",
+    "subsidiary": "Actualizar $t(common:subsidiary)",
+    "association": "Actualizar Transportista",
+    "driver": "Actualizar $t(common:driver)",
+    "tire_wear": "Actualizar $t(common:wear) del $t(common:tire)",
+    "user_subsidiary": "Vínculo de $t(common:user) a $t(common:subsidiary)",
+    "provider": "Actualizar $t(common:provider)",
+    "wear": "Actualizar $t(common:wear)",
+    "damage": "Actualizar tipo de $t(common:damage)",
+    "user": "Actualizar $t(common:user)",
+    "user_role": "Actualizar rol de $t(common:user)",
+    "revitalized_tire_model": "Actualizar el $t(common:model) de $t(common:tire) revitalizado",
+    "alert": "Actualizar $t(common:alert)",
+    "retirement_cause": "Actualizar $t(common:cause) de retiro",
+    "rfid": "Actualizar Rfid",
+    "gps": "Actualizar Gps",
+    "vehicle_type": "Actualizar Tipo de $t(common:vehicle)",
+    "company_policy": "Actualizar $t(common:policy_plural)",
+    "tire_model": "Actualizar $t(common:model) de $t(common:tire)",
+    "vehicle": "Actualizar $t(common:vehicle)",
+    "policy": "Actualizar $t(common:policy)",
+    "tire": "Actualizar $t(common:tire)",
+    "tire_review": "Actualizar $t(common:review) del $t(common:tire)",
+    "vehicle_review": "Actualizar $t(common:review) del $t(common:vehicle)",
+    "helmet_value": "Actualizar valor del casco"
+  },
+  "link": {
+    "tire_with_division": "Vínculo de $t(common:tire) con $t(common:division)",
+    "tire_with_rfid": "Vincular rfid a $t(common:tire)",
+    "division": "Vincular $t(common:division)",
+    "vehicle_with_gps": "Vincular gps a $t(common:vehicle)"
+  },
+  "new": {
+    "corporate": "Nuevo $t(common:corporate)",
+    "brand": "Nueva $t(common:brand)",
+    "size": "Nueva $t(common:size)",
+    "company": "Nueva $t(common:company)",
+    "division": "Nueva $t(common:division)",
+    "warehouse": "Nuevo $t(common:warehouse)",
+    "subsidiary": "Nueva $t(common:subsidiary)",
+    "association": "Nuevo Transportista",
+    "alert": "Nueva $t(common:alert)",
+    "provider": "Nuevo $t(common:provider)",
+    "wear": "Nuevo $t(common:wear)",
+    "driver": "Nuevo $t(common:driver)",
+    "damage": "Nuevo Tipo de $t(common:damage)",
+    "user": "Nuevo $t(common:user)",
+    "user_role": "Nuevo rol de $t(common:user)",
+    "revitalized_tire_model": "Nuevo $t(common:model) de $t(common:tire) revitalizado",
+    "retirement_cause": "Nueva $t(common:cause) de retiro",
+    "rfid": "Nuevo Rfid",
+    "gps": "Nuevo Gps",
+    "tire_model": "Nuevo $t(common:model) de $t(common:tire)",
+    "vehicle_type": "Nuevo Tipo de $t(common:vehicle)",
+    "vehicle": "Nuevo $t(common:vehicle)",
+    "policy": "Nueva $t(common:policy)",
+    "tire": "Nuevo $t(common:tire)",
+    "tire_review": "Nueva $t(common:review) de $t(common:tire)",
+    "helmet_value": "Nuevo valor del casco"
+  },
+  "show": {
+    "alert": "$t(common:alert)",
+    "link": {
+      "gps_with_vehicle": "Vínculo de $t(common:vehicle) con gps",
+      "gps_vehicle_link": "Vínculo de gps con $t(common:vehicle)",
+      "user_subsidiary": {
+        "with_user": "Vínculo de $t(common:subsidiary) con $t(common:user)",
+        "with_subsidiary": "Vínculo de $t(common:user) con $t(common:subsidiary)"
+      },
+      "subsidiary_driver": {
+        "subsidiary": "Vínculo de $t(common:subsidiary) con $t(common:driver)",
+        "driver": "Vínculo de $t(common:driver) con $t(common:subsidiary)"
+      }
+    },
+    "tire": "Información del $t(common:tire)",
+    "inspection": "$t(common:inspection)"
+  },
+  "history": {
+    "tire": {
+      "warehouse": "Sin historial de $t(common:warehouse)"
+    }
+  },
+  "warehouse_tire": "$t(common:tire) almacenado",
+  "register": {
+    "vehicles": "Registrar $t(common:vehicle_plural) por excel",
+    "tires": "Registrar $t(common:tire_plural) por excel",
+    "rfids": "Registrar rfids por excel"
+  },
+  "policy": {
+    "no_condition_policy": "Sin $t(common:policy_plural) de condición"
+  },
+  "send": {
+    "revitalization": "Enviar a Revitalización",
+    "repair": "Enviar a Reparación",
+    "pile": "Enviar a Pila de desecho",
+    "warehouse": "Enviar a $t(common:warehouse)",
+    "multiple_to_warehouse": "Enviar $t(common:tire_plural) al $t(common:warehouse)"
+  },
+  "mount": "Montar $t(common:tire) en la posición {position}",
+  "vehicle_inspection": "$t(common:inspection) del $t(common:vehicle)",
+  "vehicle_pressure_inspection": "$t(common:review) de presiones al $t(common:vehicle)",
+  "vehicle_identify_inspection": "$t(common:review) de identificación al $t(common:vehicle)",
+  "mount_alerts": "$t(common:alert_plural) de montaje",
+  "move": {
+    "vehicle": "Trasladar $t(common:vehicle)",
+    "tire": "Trasladar $t(common:tire)"
+  },
+  "tire_stats_report": "Estadísticas de $t(common:tire_plural)",
+  "pile_stats_report": "Estadísticas de pila",
+  "best_performance_report": "Mejor rendimiento",
+  "summary_report": "Resumen",
+  "damages_wears": "$t(common:damage_plural) y $t(common:wear_plural)",
+  "dynamic_cost_report": "Costo por $t(common:model)",
+  "tire_alerts": "$t(common:alert_plural) del $t(common:tire)",
+  "pile_summary_report": "Resumen de pila",
+  "pile_performance_report": "Rendimiento pila",
+  "pile_report": "Pila de desecho",
+  "renewability_index_report": "Índice de renovabilidad",
+  "review_performance_report": "Desempeño de $t(common:tire_plural)",
+  "mount_report": "$t(common:tire_plural) instalados",
+  "report_warehouse": "$t(common:tire_plural) almacenados",
+  "potential_savings_report": "Pérdidas potenciales",
+  "user_review_report": "$t(common:review_plural) por $t(common:user)",
+  "km_projection_report": "Proyección de Km",
+  "purchase_report": "Compras sugeridas",
+
+  "rotate": "Rotar $t(common:tire)(s)",
+
+  "vehicle_summary": "Información de $t(common:vehicle_plural) inspeccionados y totales de la flota, por tipo de $t(common:vehicle_plural)",
+  "quantity_vehicle": "Cantidad de $t(common:vehicle_plural) verificados reporte actual.",
+  "quantity_tire": "Cantidad de $t(common:tire_plural) verificados reporte actual.",
+  "total_vehicles": "Total de $t(common:vehicle_plural) en la flotilla.",
+  "total_tires": "Total de $t(common:tire_plural) en la flotilla.",
+  "tire_info": "Información de $t(common:tire_plural) totales en la flota y las inspeccionadas, por tipo de aplicación y por ubicación",
+  "tires_by_application": "Por aplicación",
+  "tires_by_location": "Por ubicación",
+  "historic": "Histórico",
+  "semaphore_report": "Reporte semáforo",
+  "tire_revitalized_report": "Reporte de $t(common:tire_plural) revitalizados",
+  "summary_warehouse_report": "Reporte de $t(common:tire_plural) desmontados",
+  "summary_mount_report": "Reporte de montajes realizados",
+  "tire_repair_report": "Reporte de $t(common:tire_plural) reparados",
+
+  "graphs": {
+    "pile_by_responsible": "Pila de Desecho por Responsables",
+    "pile_by_responsible_cost": "Costos de Pila de Desecho por Responsables",
+    "original_vs_renewed": "Compra de $t(common:tire_plural) (Original vs Renovado)",
+    "vehicle_historic": "$t(common:review_plural) de $t(common:vehicle)",
+    "review_performance": "Desempeño de $t(common:tire_plural)"
+  }
+}

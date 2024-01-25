@@ -1,0 +1,276 @@
+{
+  "login": "Done, you have successfully logged in.",
+  "confirm": "Confirm",
+  "delete": {
+    "corporate": "Are you sure to delete the $t(common:corporate)?",
+    "division": "Are you sure to delete the $t(common:division)?",
+    "brand": "Are you sure to delete the $t(common:brand)?",
+    "size": "Are you sure to delete the $t(common:size)?",
+    "company": "Are you sure to delete the $t(common:company)?",
+    "subsidiary": "Are you sure to delete the $t(common:subsidiary)?",
+    "association": "Are you sure to delete the association?",
+    "provider": "Are you sure to delete the $t(common:provider)?",
+    "wear": "Are you sure to delete the $t(common:wear)?",
+    "driver": "Are you sure to delete the $t(common:driver)?",
+    "warehouse": "Are you sure to delete the $t(common:warehouse)?",
+    "retirement_cause": "Are you sure to delete the retirement $t(common:cause)?",
+    "gps": "Are you sure to delete the gps?",
+    "damage": "Are you sure to delete the $t(common:damage)?",
+    "alert": "Are you sure to delete the $t(common:alert)?",
+    "rfid": "Are you sure to delete the rfid?",
+    "vehicle_type": "Are you sure to delete the $t(common:vehicle) type?",
+    "link_tire_with_warehouse": "Are you sure to take the $t(common:tire) out of the $t(common:warehouse)?",
+    "link_user_with_corporate": "Are you sure to unlink $t(common:user) from $t(common:corporate)?",
+    "link_user_with_company": "Are you sure to unlink $t(common:user) from $t(common:company)?",
+    "link_user_with_subsidiary": "Are you sure to unlink $t(common:user) from $t(common:subsidiary)?",
+    "link_subsidiary": "Are you sure to unlink the $t(common:subsidiary)?",
+    "link_driver": "Are you sure to unlink the $t(common:driver)?",
+    "link_warehouse": "Are you sure to unlink the $t(common:warehouse)?",
+    "link_tire": "Are you sure to unlink the $t(common:tire)?",
+    "link_vehicle": "Are you sure to unlink the $t(common:vehicle)?",
+    "tire_wear": "Are you sure to delete the $t(common:tire) $t(common:wear)?",
+    "user": "Are you sure to delete the $t(common:user)?",
+    "user_role": "Are you sure to delete the $t(common:user) role?",
+    "tire_model": "Are you sure to delete the $t(common:tire) $t(common:model)?",
+    "revitalized_tire_model": "Are you sure to delete the revitalized $t(common:tire) $t(common:model)?",
+    "vehicle": "Are you sure to delete the $t(common:vehicle)?",
+    "condition_policy": "Are you sure to delete the condition $t(common:policy)?",
+    "pressure_policy": "Are you sure to delete the pressure $t(common:policy)?",
+    "depth_policy": "Are you sure to delete the depth $t(common:policy)?",
+    "tire": "Are you sure to delete the $t(common:tire)?",
+    "model_pressure_policy": "Are you sure to delete the pressure $t(common:policy) by $t(common:model)?",
+    "helmet_value": "Are you sure to delete the helmet value?",
+    "vehicle_review": "Are you sure to delete the $t(common:vehicle) $t(common:review)?"
+  },
+  "deleted": {
+    "link_tire_with_warehouse": "Done, the $t(common:tire) was successfully taken out of the $t(common:warehouse)",
+    "link_user_with_corporate": "Done, the $t(common:user) has been unlinked from the $t(common:corporate)",
+    "link_user_with_company": "Done, the $t(common:user) has been unlinked from the $t(common:company)",
+    "link_user_with_subsidiary": "Done, the $t(common:user) has been unlinked from the $t(common:subsidiary)",
+    "link_vehicle": "Done, the $t(common:vehicle) has been unlinked",
+    "link_driver": "Done, the $t(common:driver) has been unlinked",
+    "link_warehouse": "Done, the $t(common:warehouse) has been unlinked",
+    "link_tire": "Done, the $t(common:tire) has been unlinked",
+    "tire_wear": "Done, $t(common:tire) $t(common:wear) was successfully deleted",
+    "link_subsidiary": "Done, the $t(common:subsidiary) has been unlinked",
+    "condition_policy": "Done, the condition $t(common:policy) has been eliminated",
+    "pressure_policy": "Done, the pressure $t(common:policy) has been successfully deleted",
+    "depth_policy": "Done, the depth $t(common:policy) has been successfully deleted",
+    "model_pressure_policy": "Done, the pressure $t(common:policy) by $t(common:model) has been successfully deleted",
+    "helmet_value": "Done, the helmet value has been successfully deleted",
+    "vehicle_review": "Done, the $t(common:vehicle) $t(common:review) has been successfully deleted"
+  },
+  "update": {
+    "same_vehicle": "The $t(common:vehicle) is the same as above",
+    "vehicle_review_policy_denied": "The $t(common:subsidiary) $t(common:policy_plural) do not allow you to edit an $t(common:inspection)",
+    "tire_review_policy_denied": "The $t(common:subsidiary) $t(common:policy_plural) do not allow you to edit a $t(common:tire) $t(common:inspection)",
+    "vehicle_review": "Are you sure to update the $t(common:vehicle) $t(common:review) with value {odometer}"
+  },
+  "updated": {
+    "user_roles": "Done, the roles has been updated",
+    "tire_wear": "Done, the $t(common:tire) $t(common:wear) has been updated",
+    "vehicle_changed": "Done, the $t(common:vehicle) has been successfully changed.",
+    "corporate": "Done, $t(common:corporate) has been successfully updated",
+    "brand": "Done, $t(common:brand) has been successfully updated",
+    "size": "Done, $t(common:size) has been successfully updated",
+    "company": "Done, $t(common:company) has been successfully updated",
+    "division": "Done, $t(common:division) has been successfully updated",
+    "subsidiary": "Done, $t(common:subsidiary) has been successfully updated",
+    "association": "Done, association has been successfully updated",
+    "provider": "Done, $t(common:provider) has been successfully updated",
+    "wear": "Done, $t(common:wear) has been successfully updated",
+    "driver": "Done, $t(common:driver) has been successfully updated",
+    "user": "Done, the $t(common:user) has been successfully updated",
+    "user_role": "Done, the $t(common:user) role has been successfully updated",
+    "warehouse": "Done, $t(common:warehouse) has been successfully updated",
+    "retirement_cause": "Done, retirement $t(common:cause) has been successfully updated",
+    "gps": "Done, gps has been successfully updated",
+    "damage": "Done, $t(common:damage) has been successfully updated",
+    "revitalized_tire_model": "Done, revitalized $t(common:tire) $t(common:model) has been successfully updated",
+    "alert": "Done, $t(common:alert) has been successfully updated",
+    "rfid": "Done, the rfid has been successfully updated",
+    "vehicle_type": "Done, the $t(common:vehicle) type has been successfully updated",
+    "company_policy": "Done, the $t(common:policy_plural) has been successfully updated",
+    "tire_model": "Done, the $t(common:tire) $t(common:model) has been successfully updated",
+    "vehicle": "Done, the $t(common:vehicle) has been successfully updated",
+    "policy": "Done, the condition $t(common:policy) has been successfully updated",
+    "pressure_policy": "Done, the pressure $t(common:policy) has been successfully updated",
+    "depth_policy": "Done, the depth $t(common:policy) has been successfully updated",
+    "tire": "Done, $t(common:tire) has been successfully updated",
+    "model_pressure_policy": "Done, the pressure $t(common:policy) by $t(common:model) has been successfully updated",
+    "tire_pressure": "Done, the $t(common:tire) pressures have been successfully updated",
+    "tire_review": "Done, the $t(common:tire) $t(common:review) has been successfully updated",
+    "vehicle_review": "Done, the $t(common:vehicle) $t(common:review) has been successfully updated",
+    "helmet_value": "Done, the helmet value has been successfully updated"
+  },
+  "created": {
+    "corporate": "Done, $t(common:corporate) has been successfully created",
+    "brand": "Done, $t(common:brand) has been successfully created",
+    "size": "Done, $t(common:size) has been successfully created",
+    "company": "Done, $t(common:company) has been successfully created",
+    "division": "Done, $t(common:division) has been successfully created",
+    "subsidiary": "Done, $t(common:subsidiary) has been successfully created",
+    "association": "Done, association has been successfully created",
+    "provider": "Done, $t(common:provider) has been successfully created",
+    "driver": "Done, $t(common:driver) has been successfully created",
+    "user": "Done, $t(common:user) has been successfully created",
+    "user_role": "Done, a $t(common:user) role has been successfully assigned",
+    "warehouse": "Done, $t(common:warehouse) has been successfully created",
+    "wear": "Done, $t(common:wear) has been successfully created",
+    "gps": "Done, gps has been successfully created",
+    "damage": "Done, $t(common:damage) has been successfully created",
+    "revitalized_tire_model": "Done, revitalized $t(common:tire) $t(common:model) has been successfully created",
+    "alert": "Done, $t(common:alert) has been successfully created",
+    "retirement_cause": "Done, retirement $t(common:cause) has been successfully created",
+    "rfid": "Done, rfid has been successfully created",
+    "tire_model": "Done, $t(common:tire) $t(common:model) has been successfully created",
+    "vehicle_type": "Done, $t(common:vehicle) type has been successfully created",
+    "vehicle": "Done, $t(common:vehicle) has been successfully created",
+    "policy": "Done, condition $t(common:policy) has been successfully created",
+    "pressure_policy": "Done, the pressure $t(common:policy) has been successfully created",
+    "depth_policy": "Done, the depth $t(common:policy) has been successfully created",
+    "tire": "Done, $t(common:tire) has been successfully created",
+    "tires": "Done, the $t(common:tire_plural) has been successfully created",
+    "vehicle_review": "Done, the $t(common:vehicle) $t(common:review) has been successfully created",
+    "model_pressure_policy": "Done, the pressure $t(common:policy) by $t(common:model) has been successfully created",
+    "tire_damage": "Done, the $t(common:damage)(s) have been successfully assigned to $t(common:tire)",
+    "tire_wear": "Done, the $t(common:wear) have been successfully assigned to $t(common:tire)",
+    "tire_review": "Done, the $t(common:tire) $t(common:review) has been successfully created",
+    "helmet_value": "Done, the helmet value has been successfully created"
+  },
+  "change_status": {
+    "corporate": {
+      "enable": "Are you sure to enable the $t(common:corporate)?",
+      "disable": "Are you sure to disable the $t(common:corporate)?"
+    },
+    "brand": {
+      "enable": "Are you sure to enable the $t(common:brand)?",
+      "disable": "Are you sure to disable the $t(common:brand)?"
+    },
+    "size": {
+      "enable": "Are you sure to enable the $t(common:size)?",
+      "disable": "Are you sure to disable the $t(common:size)?"
+    },
+    "company": {
+      "enable": "Are you sure to enable the $t(common:company)?",
+      "disable": "Are you sure to disable the $t(common:company)?"
+    },
+    "division": {
+      "enable": "Are you sure to enable the $t(common:division)?",
+      "disable": "Are you sure to disable the $t(common:division)?"
+    },
+    "subsidiary": {
+      "enable": "Are you sure to enable the $t(common:subsidiary)?",
+      "disable": "Are you sure to disable the $t(common:subsidiary)?"
+    },
+    "association": {
+      "enable": "Are you sure to enable the association?",
+      "disable": "Are you sure to disable the association?"
+    },
+    "provider": {
+      "enable": "Are yoy sure to enable the $t(common:provider)?",
+      "disable": "Are you sure to disable the $t(common:provider)?"
+    },
+    "wear": {
+      "enable": "Are you sure to enable the $t(common:wear)?",
+      "disable": "Are you sure to disable the $t(common:wear)?"
+    },
+    "driver": {
+      "enable": "Are you sure to enable the $t(common:driver)?",
+      "disable": "Are you sure to disable the $t(common:driver)?"
+    },
+    "user": {
+      "enable": "Are you sure to enable the $t(common:user)?",
+      "disable": "Are you sure to disable the $t(common:user)?"
+    },
+    "warehouse": {
+      "enable": "Are you sure to enable the $t(common:warehouse)?",
+      "disable": "Are you sure to disable the $t(common:warehouse)?"
+    },
+    "retirement_cause": {
+      "enable": "Are you sure to enable the retirement $t(common:cause)?",
+      "disable": "Are you sure to disable the retirement $t(common:cause)?"
+    },
+    "gps": {
+      "enable": "Are you sure to enable the gps?",
+      "disable": "Are you sure to disable the gps?"
+    },
+    "damage": {
+      "enable": "Are you sure to enable the $t(common:damage)?",
+      "disable": "Are you sure to disable the $t(common:damage)?"
+    },
+    "revitalized_tire_model": {
+      "enable": "Are you sure to enable the revitalized $t(common:tire) $t(common:model)?",
+      "disable": "Are you sure to disable the revitalized $t(common:tire) $t(common:model)?"
+    },
+    "alert": {
+      "enable": "Are you sure to enable the $t(common:alert)?",
+      "disable": "Are you sure to disable the $t(common:alert)?"
+    },
+    "rfid": {
+      "enable": "Are you sure to enable the rfid?",
+      "disable": "Are you sure to disable the rfid?"
+    },
+    "tire_model": {
+      "enable": "Are you sure to enable the $t(common:tire) $t(common:model)?",
+      "disable": "Are you sure to disable the $t(common:tire) $t(common:model)?"
+    },
+    "vehicle_type": {
+      "enable": "Are you sure to enable the $t(common:vehicle) type?",
+      "disable": "Are you sure to disable the $t(common:vehicle) type?"
+    },
+    "vehicle": {
+      "enable": "Are you sure to enable the $t(common:vehicle)?",
+      "disable": "Are you sure to disable the $t(common:vehicle)?"
+    },
+    "tire": {
+      "enable": "Are you sure to enable the $t(common:tire)?",
+      "disable": "Are you sure to disable the $t(common:tire)?"
+    }
+  },
+  "change_approved": {
+    "brand": {
+      "approve": "Are you sure to approve the $t(common:brand)?",
+      "disapprove": "Are you sure to disapprove the $t(common:brand)?"
+    },
+    "model": {
+      "approve": "Are you sure to approve the $t(common:model)?",
+      "disapprove": "Are you sure to disapprove the $t(common:model)?"
+    },
+    "size": {
+      "approve": "Are you sure to approve the $t(common:size)?",
+      "disapprove": "Are you sure to disapprove the $t(common:size)?"
+    }
+  },
+  "reset": {
+    "odometer": "Are you sure to reset odometer?",
+    "difference": "Are you sure to reset gps difference?"
+  },
+  "sent": {
+    "revitalization": "Done, the $t(common:tire) has been sent to retread",
+    "repair": "Done, the $t(common:tire) has been sent to repair",
+    "pile": "Done, the $t(common:tire) has been sent to pile",
+    "warehouse": "Done, the $t(common:tire) has been sent to $t(common:warehouse)",
+    "multiple_to_warehouse": "Done, the $t(common:tire_plural) has been sent to $t(common:warehouse)"
+  },
+  "linked": {
+    "tire_with_rfid": "Done, the rfid has been successfully linked to $t(common:tire)",
+    "gps_with_vehicle": "Done, the gps has been successfully linked to $t(common:vehicle)"
+  },
+  "mounted": "Done, the $t(common:tire) has been successfully mounted",
+  "finalize": "Are you sure to finalize the $t(common:review)?",
+  "finalized": "Done, the $t(common:vehicle) $t(common:review) has been successfully finalized",
+  "physical_difference": "Are you sure to report the $t(common:tire) mismatch?",
+  "pressure_adjustment": "Are you sure to pressure adjustment?",
+  "pressure_adjusted": "Done, the pressures have been successfully adjusted",
+  "identification_completed": "Done, the $t(common:tire_plural) identification has been successfully completed",
+  "rotate": "Exchange the $t(common:tire) from position {position} with the one from position {position2}",
+  "single_rotate": "Exchange the $t(common:tire) from position {position} to position {position2}",
+  "cycle": "It is no longer possible to renew the $t(common:tire), the cycles defined in the $t(common:policy) have already been completed",
+  "cancel_movement": "Are yo sure to cancel the current movement?",
+  "notice_cancel_movement": "The current movement is canceled and the $t(common:tire) will go to the storage of canceled movements",
+  "out_of_time_review": "24 hours or more have passed since the last $t(common:review), to make movements you must register a new",
+  "travel_confirm": "The $t(common:travel) of the $t(common:vehicle) will be {value} km, are you sure to continue?",
+  "vehicle_not_found": "The $t(common:vehicle) {vehicle} was not found",
+  "vehicle_in_process": "The $t(common:vehicle) {vehicle} has an $t(common:inspection) in process and must be completed, to enable assembly"
+}

@@ -1,0 +1,407 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "brand_type": {
+    "label": {
+      "singular": "$t(common:brand) type",
+      "plural": "$t(common:brand) types"
+    },
+    "default": {
+      "singular": "Select a $t(common:brand) type",
+      "plural": "Select the $t(common:brand) types"
+    },
+    "helper_text": "You can select many types of $t(common:brand_plural)",
+    "options": {
+      "vehicle": "$t(common:vehicle)",
+      "tire": "$t(common:tire)",
+      "engine_transmission": "Engine Transmission",
+      "vehicle_engine": "$t(common:vehicle) engine",
+      "retread": "Retread"
+    }
+  },
+  "id": "ID",
+  "date": {
+    "label": "Date",
+    "range": "Date range",
+    "from": "From",
+    "to": "To"
+  },
+  "status": "Status",
+  "approved": "Approved",
+  "data_sheet": {
+    "label": "Data sheet",
+    "placeholder": "Drop the data sheet document here or click to select it",
+    "no": "No data sheet"
+  },
+  "tire_model": {
+    "model_name": "$t(common:model) $t(common:name)",
+    "use": "Use",
+    "application": "Application"
+  },
+  "tire_application": {
+    "label": {
+      "singular": "$t(common:tire) application",
+      "plural": "$t(common:tire) applications"
+    },
+    "default": {
+      "singular": "Select the application",
+      "plural": "Select the applications"
+    },
+    "helper_text": "Multiple applications can be selected",
+    "options": {
+      "directional": "Steer",
+      "trailer": "Trailer",
+      "all_position": "All position",
+      "traction": "Drive"
+    }
+  },
+  "tire_model_variation": {
+    "label": "$t(common:tire) $t(common:model) variation",
+    "depth": "Depth",
+    "maximum_pressure": "Maximum pressure",
+    "recommended_pressure": "Recommended pressure",
+    "tolerance": "Pressure tolerance",
+    "number_layers": "Number of layers"
+  },
+  "helmet_value": "Helmet value",
+  "helmet_value_revitalized": "Helmet value revitalized",
+  "tire_use": {
+    "options": {
+      "long_distance": "Long distance",
+      "mixed": "Mixed",
+      "regional": "Regional",
+      "urban": "Urban"
+    }
+  },
+  "registered_by": "Registered by",
+  "depth": "Depth",
+  "application": "Application",
+  "alert": {
+    "label": "$t(common:alert)",
+    "code": "$t(common:alert) Code",
+    "suggestion": "Suggestion",
+    "details": "Details"
+  },
+  "priority": {
+    "label": "Priority",
+    "default": "Select a Priority",
+    "helper_text": "Multiple can be selected",
+    "options": {
+      "high": "High",
+      "half": "Medium",
+      "low": "Low"
+    }
+  },
+  "alert_type": {
+    "label": "Alert Type",
+    "default": "Select a $t(common:alert) Type",
+    "helper_text": "Multiple can be selected",
+    "options": {
+      "vehicle": "$t(common:vehicle)",
+      "tire": "$t(common:tire)",
+      "mount": "Mount"
+    }
+  },
+  "ranking_alert": {
+    "label": "Ranking $t(common:alert)",
+    "default": "Select a Ranking $t(common:alert)",
+    "options": {
+      "pressure": "Pressure",
+      "depth": "Depth",
+      "condition": "Condition",
+      "application": "Application",
+      "projection": "Projection",
+      "patches": "Patches",
+      "retirement": "Retirement",
+      "model": "$t(common:model)",
+      "size": "$t(common:size)",
+      "review": "$t(common:review)",
+      "assignment": "Assignment",
+      "identification": "Identification"
+    }
+  },
+  "code": "Code",
+  "appearance": "Appearance",
+  "placeholder": {
+    "image": "Drop the image or click to select it"
+  },
+  "category": {
+    "label": "Category",
+    "default": "Select a category",
+    "options": {
+      "not_avoidable": "Not avoidable",
+      "avoidable": "Avoidable",
+      "helmet_failure": "Helmet failure",
+      "operation": "Operation",
+      "retread_repair": "Retread/Repair",
+      "road_risk": "Road risk",
+      "directional": "Steer",
+      "traction": "Drive",
+      "trailer": "Trailer"
+    }
+  },
+  "probable_causes": "probable $t(common:cause_plural)",
+  "action_tire": "Action $t(common:tire)",
+  "action_vehicle": "Action $t(common:vehicle)",
+  "action_operation": "Action operation",
+  "area": {
+    "label": "Area",
+    "default": "Select an area",
+    "options": {
+      "sidewall": "Sidewall",
+      "bead": "Bead",
+      "tread": "Tread",
+      "inside": "Inside",
+      "any": "Any",
+      "crown": "Crown",
+      "wheel": "Wheel"
+    }
+  },
+  "lock_cycle": "Block new cycles of revitalization",
+  "description": "Description",
+  "name": {
+    "special": "$t(common:name)(s)"
+  },
+  "social_reason": "Social Reason",
+  "rfc": "RFC",
+  "tire_fee": "$t(common:tire) Fee",
+  "fee_field": {
+    "label": "Fee Currency Type",
+    "options": {
+      "mxn": "Mexican Coin (MXN)",
+      "usd": "US Dollar (USD)",
+      "eur": "European coin (EUR)"
+    }
+  },
+  "tradename": "Tradename",
+  "direction": "Direction",
+  "direction1": "Street",
+  "direction2": "Colony",
+  "province": "Province or municipality",
+  "internal_number": "Internal Number",
+  "external_number": "External Number",
+  "address": "Address",
+  "postal_code": "Postal code",
+  "country": "Country",
+  "state": "State",
+  "company_policies": {
+    "general_policies": "General $t(common:policy_plural)",
+    "number_cycle": "Maximum number of cycles",
+    "tire_rotation": "Rotation $t(common:policy)",
+    "inspection": "$t(common:inspection) $t(common:policy)",
+    "days": "days",
+    "tolerance_inflation_pressure": "Tolerance for inflation pressure",
+    "directional_tire_rotation": "Steer rotation $t(common:policy)",
+    "tolerance_mating_pressure": "Tolerance for pressure (mating)",
+    "helmet_policy": "Helmet $t(common:policy)",
+    "pressure_type_axle": "Recommended pressure per $t(common:axle) type",
+    "tire_condition_axle_type": "$t(common:tire) condition by $t(common:axle) type",
+    "show_alerts_different_assignment": "Show $t(common:alert_plural) of different assignment",
+    "notify_inappropriate_pressures": "Notify operator of inappropriate pressures",
+    "tolerance_directional_mating_depth": "Tolerance for depth (steer)",
+    "mating_tolerance_directional_mating_depth": "Mating Tolerance for depth (steer)",
+    "tolerance_mating_depth": "Tolerance for depth",
+    "mating_tolerance_mating_depth": "Mating Tolerance for depth",
+    "send_pressure_setting": "Send pressure setting",
+    "operator_edit": "Operator can edit $t(common:inspection_plural)",
+    "refection_review": "Inspect spare $t(common:tire_plural)"
+  },
+  "yes": "Yes",
+  "no": "No",
+  "layer": "Layers",
+  "tire_model_variation_field": {
+    "label": "$t(common:size)/Layers",
+    "default": "Select a $t(common:size)/layer",
+    "multiple": "Multiple can be selected"
+  },
+  "depth_tolerance_policies": {
+    "general_policies": "General $t(common:policy_plural)",
+    "tire_application_id": "$t(common:tire) Application",
+    "good_condition": "Good Condition",
+    "scheduled_withdrawal": "Scheduled Withdrawal",
+    "critical_withdrawal": "Critical Withdrawal",
+    "maximum_number_patches": "Maximum Number Patches",
+    "critical_number_patches": "Critical Number Patches"
+  },
+  "economic_number": "Economic number",
+  "vehicle_type": {
+    "label": "$t(common:vehicle) type",
+    "default": "Select a $t(common:vehicle) type"
+  },
+  "axle_field": {
+    "label": "$t(common:axle) type",
+    "default": "Select an $t(common:axle)",
+    "options": {
+      "directional": "Steer",
+      "traction": "Drive",
+      "trailer": "Trailer",
+      "refection": "Refection"
+    }
+  },
+  "good_condition": "Good condition",
+  "maximum_number_patches": "Maximum number patches",
+  "critical_number_patches": "Critical number patches",
+  "scheduled_withdrawal": "Scheduled withdrawal",
+  "critical_withdrawal": "Critical withdrawal",
+  "observation": "Observation",
+  "gps": "Gps",
+  "imei": "Imei",
+  "device_name": "Device $t(common:name)",
+  "created_at": "Registration date",
+  "device_code": "Device code",
+  "location": {
+    "label": "Location",
+    "options": {
+      "warehouse": "$t(common:warehouse)",
+      "mount": "MOUNT",
+      "revitalization": "REVITALIZATION",
+      "pile": "SCRAP",
+      "repair": "REPAIR",
+      "initial": "INITIAL"
+    }
+  },
+  "rfid": "Rfid",
+  "condition": "Condition",
+  "invoice_date": "Invoice date",
+  "invoice_folio": "Invoice folio",
+  "revitalized_brand_field": {
+    "label": "Revitalized $t(common:brand)",
+    "default": "Select a $t(common:brand)"
+  },
+  "tire_condition": {
+    "default": "Select a condition",
+    "options": {
+      "renovated_new": "Retreaded new",
+      "renovated_used": "Retreaded used",
+      "original": "Original",
+      "revitalized": "Revitalized",
+      "both": "Both",
+      "original_new": "Original New",
+      "original_used": "Original Used",
+      "retread_new": "Retreaded New",
+      "retread_used": "Retreaded Used",
+      "renewed": "Renewed",
+      "total": "Total"
+    }
+  },
+  "vehicle_brand": {
+    "label": "$t(common:vehicle) $t(common:brand)",
+    "default": "Select a $t(common:vehicle) $t(common:brand)"
+  },
+  "pressure": "Pressure",
+  "vehicle_type_axle_position": {
+    "label": "Position",
+    "options": {
+      "frontal": "Frontal",
+      "central": "Central",
+      "rear": "Rear",
+      "refection": "Spare"
+    }
+  },
+  "dot_initial": "Initial DOT",
+  "dot_final": "Final DOT",
+  "spare": "Spare",
+  "cap_and_casing": "Cap & casing",
+  "expected_durability": "Expected durability",
+  "price": "Price",
+  "retread_price": "Retread price",
+  "original_price": "Original price",
+  "axle_number": "$t(common:axle) number",
+  "mileage": "Mileage",
+  "review_date": "$t(common:review) date",
+  "number_cycle": "Number cycle",
+  "dot": "DOT",
+  "not_warehouse": "Not $t(common:warehouse)",
+  "not_vehicle": "Not $t(common:vehicle)",
+  "created_by": "Created by",
+  "updated_by": "Updated by",
+  "excel_placeholder": "Drop the excel document here or click to select it",
+  "date_send": "Send date",
+  "date_return": "Return date",
+  "history": "History",
+  "retirement_cause_field": {
+    "label": "Retirement $t(common:cause)",
+    "default": "Select a retirement $t(common:cause)"
+  },
+  "cost_dispose_helmet": "Cost dispose helmet",
+  "surcharge": "Surcharge $t(common:driver)",
+  "surcharge_item": {
+    "label": "Surcharge item",
+    "default": "Select a surcharge item",
+    "options": {
+      "operation": "Operation"
+    }
+  },
+  "similar_tires": "Number of similar $t(common:tire_plural) to register",
+  "revitalized_tire_model_field": {
+    "label": "Revitalized $t(common:model)"
+  },
+  "original_info": "Original info",
+  "number_patches": "Patches number",
+  "inspection_date": "$t(common:inspection) date",
+  "type_of_route": {
+    "label": "Type of route",
+    "default": "Select a type of route",
+    "options": {
+      "local": "Local",
+      "foreign": "Foreign"
+    }
+  },
+  "vehicle": {
+    "in_process": "$t(common:vehicle_plural) in process"
+  },
+  "movement_sheet": "Movement sheet",
+  "review_type": {
+    "label": "$t(common:review) type",
+    "options": {
+      "reset": "Reset",
+      "complete": "Complete",
+      "damage_and_wear": "$t(common:damage_plural) and $t(common:wear)",
+      "rotation": "Rotation",
+      "mount_dismount": "Mount / Dismount",
+      "pressure": "Pressure",
+      "identify": "Identify",
+      "initial": "Initial",
+      "partial": "Partial"
+    }
+  },
+  "finalized": "Finalized",
+  "inspection_in_process": "$t(common:inspection) in process",
+  "detail": "Detail",
+  "tire_days_service": "Days in service",
+  "cost_km": "Cost KM",
+  "cost_mm": "Cost MM",
+  "cost": "Cost",
+  "projection": "Km Projection",
+  "last_review": "Last $t(common:review)",
+  "new_review": "New $t(common:review)",
+  "odometer": "Odometer",
+  "done_by": "Done by",
+  "correct_tire": {
+    "label": "Correct $t(common:tire)?",
+    "yes": "Correct",
+    "no": "No correct"
+  },
+  "language_field": {
+    "label": "Language",
+    "options": { "es": "Spanish", "en": "English" }
+  },
+  "wheel": {
+    "label": "Wheel",
+    "default": "Select a wheel",
+    "options": {
+      "steel": "Steel",
+      "aluminum": "Aluminum",
+      "both": "Aluminum & steel"
+    }
+  },
+  "activity": {
+    "label": "Rule out $t(common:review_plural)",
+    "options": {
+      "not_rule_out": "Not rule out",
+      "general": "Rule out assembles and disassembles",
+      "general_and_mount": "Rule out assembles and disassembles"
+    }
+  },
+  "burn_code": "Burn code"
+}

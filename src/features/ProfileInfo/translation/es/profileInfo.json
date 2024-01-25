@@ -1,0 +1,14 @@
+{
+  "profileInfo": {
+    "title": "Actualización del Perfil",
+    "sub_title": "Puedes actualizar los datos de tu cuenta",
+    "form": {
+      "labels": {
+        "confirm_pass": "Confirmar contraseña"
+      }
+    },
+    "messages": {
+      "profile_updated": "Listo, se actualizo con éxito su información personal."
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "languages": {
+    "es": "Español",
+    "en": "Ingles"
+  },
+  "text": {
+    "and": "y",
+    "or": "o"
+  },
+  "home": "Inicio",
+  "role": {
+    "label": "Rol",
+    "root": "Root",
+    "manager": "Gerente",
+    "chief_operations": "Jefe de operaciones",
+    "operator": "Operador",
+    "warehouse": "$t(common:warehouse)",
+    "reports": "Reportes",
+    "checklist_operator": "Operador Checklist",
+    "distributor": "Distribuidor"
+  },
+  "mounting": "Montajes",
+  "companies": "$t(common:company_plural)",
+  "no_companies": "Sin $t(common:company_plural)",
+  "warehouses": "$t(common:warehouse_plural)",
+  "no_warehouses": "Sin $t(common:warehouse_plural)",
+  "alerts": "$t(common:alert_plural)",
+  "no_alerts": "Sin $t(common:alert_plural)",
+  "corporates": "$t(common:corporate_plural)",
+  "no_corporates": "Sin $t(common:corporate_plural)",
+  "subsidiaries": "$t(common:subsidiary_plural)",
+  "no_subsidiaries": "Sin $t(common:subsidiary_plural)",
+  "associations": "Transportistas",
+  "no_associations": "Sin transportistas",
+  "drivers": "$t(common:driver_plural)",
+  "no_drivers": "Sin $t(common:driver_plural)",
+  "vehicles": "$t(common:vehicle_plural)",
+  "vehicle_review": "$t(common:review_plural) de $t(common:vehicle)",
+  "no_vehicles": "Sin $t(common:vehicle_plural)",
+  "no_vehicle_type_axles": "Sin $t(common:axle_plural) del tipo de $t(common:vehicle)",
+  "users": "$t(common:user_plural)",
+  "no_users": "Sin $t(common:user_plural)",
+  "brands": "$t(common:brand_plural)",
+  "no_brands": "Sin $t(common:brand_plural)",
+  "size": "$t(common:size)",
+  "sizes": "$t(common:size_plural)",
+  "no_sizes": "Sin $t(common:size_plural)",
+  "tire": "$t(common:tire)",
+  "tires": "$t(common:tire_plural)",
+  "no_tires": "Sin $t(common:tire_plural)",
+  "providers": "$t(common:provider_plural)",
+  "no_providers": "Sin $t(common:provider_plural)",
+  "wears": "$t(common:wear_plural)",
+  "no_wears": "Sin $t(common:wear_plural)",
+  "damages": "Tipos de $t(common:damage_plural)",
+  "no_damages": "Sin tipos de $t(common:damage_plural)",
+  "no_tire_damages": "Sin $t(common:damage_plural)",
+  "roles": "Roles",
+  "subsidiary": "$t(common:subsidiary)",
+  "association": "Transportista",
+  "warehouse": "$t(common:warehouse)",
+  "driver": "$t(common:driver)",
+  "vehicle": "$t(common:vehicle)",
+  "gps": "Gps",
+  "no_gps": "Sin gps",
+  "division": "$t(common:division)",
+  "divisions": "$t(common:division_plural)",
+  "no_divisions": "Sin $t(common:division_plural)",
+  "retirement_causes": "$t(common:cause_plural) de retiro",
+  "no_retirement_causes": "Sin $t(common:cause_plural) de retiro",
+  "history_user": "Historial de $t(common:user) del",
+  "no_image": "Sin imagen",
+  "tire_models": "$t(common:model_plural) de $t(common:tire_plural)",
+  "no_tire_models": "Sin $t(common:model_plural) de $t(common:tire_plural)",
+
+  "revitalized_tire_models": "$t(common:model_plural) Revitalizados de $t(common:tire_plural)",
+  "no_revitalized_tire_models": "Sin $t(common:model_plural) Revitalizados de $t(common:tire_plural)",
+  "structure_types": {
+    "truck_tractor": "Tracto Camión",
+    "truck": "Camión",
+    "box": "Caja",
+    "dolly": "Dolly",
+    "van": "Camioneta"
+  },
+  "vehicles_types": "Tipos de $t(common:vehicle_plural)",
+  "no_vehicles_types": "Sin tipos de $t(common:vehicle_plural)",
+  "damage": "$t(common:damage)",
+  "tire_damage": "$t(common:damage) en el $t(common:tire)",
+  "update_tire_damage": "Actualizar $t(common:damage) del $t(common:tire)",
+  "tire_wear": "$t(common:wear) en el $t(common:tire)",
+  "information": "Información",
+  "filter": "Filtro",
+
+  "approved": {
+    "singular": {
+      "male": "Aprobado",
+      "female": "Aprobada"
+    },
+    "plural": {
+      "male": "Aprobados",
+      "female": "Aprobadas"
+    }
+  },
+
+  "not_approved": {
+    "singular": {
+      "male": "No aprobado",
+      "female": "No aprobada"
+    },
+    "plural": {
+      "male": "No aprobados",
+      "female": "No aprobadas"
+    }
+  },
+
+  "enabled": {
+    "singular": {
+      "male": "Habilitado",
+      "female": "Habilitada"
+    },
+    "plural": {
+      "male": "Habilitados",
+      "female": "Habilitadas"
+    }
+  },
+
+  "disabled": {
+    "singular": {
+      "male": "Deshabilitado",
+      "female": "Deshabilitada"
+    },
+    "plural": {
+      "male": "Deshabilitados",
+      "female": "Deshabilitadas"
+    }
+  },
+
+  "approve": "Aprobar",
+  "disapprove": "Desaprobar",
+  "enable": "Habilitar",
+  "disable": "Deshabilitar",
+  "view": "Ver",
+  "link_vehicle": "Vincular $t(common:vehicle)",
+  "approval_status": "Estatus de aprobación",
+  "link_subsidiary": "Vincular $t(common:subsidiary)",
+  "store": "Almacenar",
+  "cycle": "Ciclo",
+  "repair_tire": "Mandar a reparar $t(common:tire)",
+  "rfid": "Rfid",
+  "no_rfid": "Sin rfid",
+  "gps_geofence": "Geocerca",
+  "no_gps_geofence": "Sin geocercas",
+  "inside": "Adentro",
+  "outside": "Afuera",
+  "link_rfid": "Vincular rfid",
+  "confirm": "Confirmar",
+  "disabled_user": "$t(common:user) deshabilitado",
+  "company_policies": "$t(common:policy_plural) de $t(common:company)",
+  "policies": "$t(common:policy_plural)",
+  "policies_application": "$t(common:policy_plural) por Aplicación",
+  "condition_policies": "$t(common:policy_plural) de condición",
+  "pressure_policies": "$t(common:policy_plural) de presión",
+  "no_pressure_policies": "Sin $t(common:policy_plural) de presión",
+  "depth_policies": "$t(common:policy_plural) de profundidad",
+  "no_depth_policies": "Sin $t(common:policy_plural) de profundidad",
+  "application_tire_policies": "$t(common:policy_plural) de aplicación",
+  "model_variation_policies": "$t(common:policy_plural) de presión por $t(common:model)",
+  "no_model_variation_policies": "Sin $t(common:policy_plural) de presión por $t(common:model)",
+  "tire_history": "Historial de movimientos",
+  "tire_review_history": "Historial de $t(common:review_plural)",
+  "damage_list": "Lista de $t(common:damage_plural)",
+  "wear_list": "Lista de $t(common:wear_plural)",
+  "brand": "$t(common:brand)",
+  "tire_model": "$t(common:model)",
+  "revitalized_brand": "$t(common:brand) revitalizado",
+  "revitalized_model": "$t(common:model) revitalizado",
+  "selected_filters": "Filtros:",
+  "selected_tire": "$t(common:tire) seleccionado:",
+  "position": "Posición",
+  "depth_min": "Profundidad mín",
+  "depth_max": "Profundidad máx",
+  "no_choice": "Sin elección",
+  "reports": "Reportes",
+  "set": "Establecer",
+  "responsibles": "Responsables",
+  "vehicle_km": "Kilómetraje del $t(common:vehicle)",
+  "tire_reviews": "$t(common:review_plural) de $t(common:tire_plural)",
+  "support": "Contactar a soporte",
+  "alerts_panel": "Panel de $t(common:alert_plural)",
+  "quantity_tire": "Cantidad de $t(common:tire_plural)",
+  "average_days": "Días aprox. que tardó el revitalizado",
+  "average_days_repair": "Días aprox. que tardó la reparación",
+  "days": "Días",
+  "helmet_values": "Valor de cascos",
+  "no_model_helmet_values": "Sin valores de casco definidos por $t(common:model)",
+  "commissioned_drivers": "$t(common:driver_plural) del transportista",
+  "checklist": "Checklist",
+  "no_checklists": "Sin checklists",
+  "favorites": "Favoritos",
+  "favorite_reports": "Reportes Favoritos",
+  "concepts": "Conceptos",
+  "concept": "Concepto",
+  "no_concepts": "Sin conceptos",
+  "blocks": "Bloques",
+  "no_blocks": "Sin bloques",
+  "block": "Bloque"
+}

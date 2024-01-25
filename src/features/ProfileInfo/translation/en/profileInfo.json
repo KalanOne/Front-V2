@@ -1,0 +1,14 @@
+{
+  "profileInfo": {
+    "title": "Update Profile",
+    "sub_title": "You can update your personal information",
+    "form": {
+      "labels": {
+        "confirm_pass": "Confirm password"
+      }
+    },
+    "messages": {
+      "profile_updated": "Done, your personal information was successfully updated."
+    }
+  }
+}

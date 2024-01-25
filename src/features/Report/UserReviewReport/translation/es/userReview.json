@@ -1,0 +1,7 @@
+{
+  "user_review_report": {
+    "review_report": "Reporte de $t(common:review_plural)",
+    "report_show": "Este reporte muestra todas las $t(common:review_plural) hechas por el $t(common:user) a un $t(common:vehicle) en el rango de fechas establecidas.",
+    "percent": "Porcentaje"
+  }
+}

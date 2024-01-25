@@ -1,0 +1,8 @@
+{
+  "km_projection_report": {
+    "label": "Este reporte muestra la proyección de km por $t(common:tire)",
+    "title": "Reporte de Proyección de Km",
+    "km_projection": "Proyección de Km",
+    "km_projection_cost": "Proyección Costo Km"
+  }
+}

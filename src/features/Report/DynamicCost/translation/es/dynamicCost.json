@@ -1,0 +1,28 @@
+{
+  "dynamic_cost_report": {
+    "tabs": {
+      "general": "General",
+      "original": "Original",
+      "revitalized": "Revitalizados",
+      "cycle": "Ciclo"
+    },
+    "cost_report": "Reporte de costos por $t(common:model) de $t(common:tire)",
+    "this_report_shows": "Este reporte muestra el costo de un $t(common:tire) de cierto $t(common:model), además del costo por km, por mm y rendimiento km/mm.",
+    "only_tires": "Solo se toman en cuenta los $t(common:tire_plural) (Que no sean refacción) que tienen más de 1000 km $t(common:travel_plural) en su ciclo actual (original o revitalizado)",
+    "tire_cost": "Costo de $t(common:tire_plural)",
+    "tires": "$t(common:tire_plural)",
+
+    "cost_of_tires": "Costo de $t(common:tire_plural) según sus $t(common:model_plural) Originales",
+    "tire_cost_revitalized": "Costo de $t(common:tire_plural) según sus $t(common:model_plural) revitalizados",
+    "cost_first_cycle": "Costo de $t(common:tire_plural) en su primer ciclo",
+    "cost_second_cycle": "Costo de $t(common:tire_plural) en su segundo ciclo",
+    "cost_third_cycle": "Costo de $t(common:tire_plural) en su tercer ciclo",
+    "cost_fourth_cycle": "Costo de $t(common:tire_plural) en su cuarto ciclo",
+    "originals": "Originales",
+    "options": {
+      "both": "Ambas",
+      "warehouse": "Almacenadas",
+      "mount": "Montadas"
+    }
+  }
+}

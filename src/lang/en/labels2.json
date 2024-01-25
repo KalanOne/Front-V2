@@ -1,0 +1,699 @@
+{
+  "last_name_1": "Last $t(common:name)",
+  "last_name_2": "Second last $t(common:name)",
+  "corporate_name": "$t(common:corporate) $t(common:name)",
+
+  "warehouse_name": "$t(common:warehouse) $t(common:name)",
+  "driver_name": "$t(common:driver) $t(common:name)",
+  "wear_name": "$t(common:wear) $t(common:name)",
+  "damage_name": "$t(common:damage) $t(common:name)",
+  "tire_code": "$t(common:tire) code",
+  "title_tire_subsidiary": "$t(common:tire) link with $t(common:subsidiary)",
+  "revitalized_tire_model_name": "$t(common:model)",
+  "remainder_depth": "Remainder depth",
+  "image": "image",
+  "operation": "Operation",
+  "total": "Total",
+
+  "actioned_by": "{person} on {date} at {time}",
+  "time_at": "at",
+  "edited_by": "Edited by",
+
+  "search": "Search...",
+
+  "comment": {
+    "singular": "$t(common:comment)",
+    "plural": "$t(common:comment_plural)"
+  },
+
+  "drop_image": "Drop the image here or click to select it",
+
+  "corporate": {
+    "singular": "$t(common:corporate)",
+    "plural": "$t(common:corporate_plural)"
+  },
+  "company": {
+    "singular": "$t(common:company)",
+    "plural": "$t(common:company_plural)"
+  },
+  "user": {
+    "singular": "$t(common:user)",
+    "plural": "$t(common:user_plural)"
+  },
+  "subsidiary": {
+    "singular": "$t(common:subsidiary)",
+    "plural": "$t(common:subsidiary_plural)"
+  },
+  "tire": {
+    "singular": "$t(common:tire)",
+    "plural": "$t(common:tire_plural)"
+  },
+
+  "axle": {
+    "singular": "$t(common:axle)",
+    "plural": "$t(common:axle_plural)"
+  },
+  "driver": {
+    "singular": "$t(common:driver)",
+    "plural": "$t(common:driver_plural)"
+  },
+  "warehouse": {
+    "singular": "$t(common:warehouse)",
+    "plural": "$t(common:warehouse_plural)",
+    "default": "Select a $t(common:warehouse)"
+  },
+  "division": {
+    "singular": "$t(common:division)",
+    "plural": "$t(common:division_plural)",
+    "default": "Select a $t(common:division)"
+  },
+  "tolerance_policy": {
+    "singular": "Tolerance $t(common:policy)",
+    "plural": "Tolerance $t(common:policy_plural)"
+  },
+  "inspection": {
+    "singular": "$t(common:inspection)",
+    "plural": "$t(common:inspection_plural)"
+  },
+  "travel": {
+    "singular": "$t(common:travel)",
+    "plural": "$t(common:travel_plural)"
+  },
+  "mounted_tire": {
+    "singular": "Mounted $t(common:tire)",
+    "plural": "Mounted $t(common:tire_plural)"
+  },
+  "review": {
+    "singular": "$t(common:review)",
+    "plural": "$t(common:review_plural)"
+  },
+  "size": "$t(common:size)",
+  "tolerance": "Tolerance",
+  "brand": "$t(common:brand)",
+  "transmission_brand": {
+    "label": "Transmission $t(common:brand)",
+    "default": "Select a transmission $t(common:brand)"
+  },
+  "transmission_model": "Transmission $t(common:model)",
+  "transmission_speeds": "Transmission speeds",
+  "engine_brand": {
+    "label": "Engine $t(common:brand)",
+    "default": "Select an engine $t(common:brand)"
+  },
+  "cylinder": "Cylinder",
+
+  "vehicle_model": "$t(common:vehicle) $t(common:model)",
+  "vehicle_year": "$t(common:vehicle) year",
+  "auto_enrollment": "Auto enrollment",
+
+  "information": "Information",
+  "can_select_many": "You can select many",
+  "can_select_many_feminine": "You can select many",
+
+  "has_odometer": {
+    "label": "It has an odometer or hubodometer",
+    "simple": "Has odometer",
+    "helper_text": "$t(common:inspection_plural) made on $t(common:vehicle_plural) without an odometer/hubodometer are NOT considered for performance reporting."
+  },
+
+  "address_value": "{direction1} {external_number}{internal_number}{direction2}, P.C {postal_code}",
+
+  "subsidiary_name": "$t(common:subsidiary) $t(common:name)",
+  "unassigned_subsidiary": "Unassigned $t(common:subsidiary)",
+  "unassigned_division": "Unassigned $t(common:division)",
+
+  "tire_quantity": "$t(common:tire) quantity",
+
+  "geofence_status": "Geofence status",
+  "inside": "Inside",
+  "outside": "Outside",
+
+  "captured_by": "Captured by",
+  "with_odometer": "With odometer",
+  "without_odometer": "Without odometer",
+  "select_a_driver": "Select a $t(common:driver)",
+  "select_a_vehicle": "Select a $t(common:vehicle)",
+
+  "country_field": {
+    "label": "Country",
+    "value": "Select a country"
+  },
+
+  "tire_model_field": {
+    "label": "$t(common:model)",
+    "value": "Select a $t(common:model)",
+    "helper_text": "Multiple can be selected"
+  },
+
+  "state_field": {
+    "label": "State",
+    "value": "Select a state"
+  },
+
+  "province_field": {
+    "label": "Province",
+    "value": "Select a province"
+  },
+
+  "corporate_field": {
+    "singular": {
+      "label": "$t(common:corporate)",
+      "value": "Select a $t(common:corporate)"
+    },
+    "plural": {
+      "label": "$t(common:corporate_plural)",
+      "helper_text": "Multiple $t(common:corporate_plural) can be selected"
+    }
+  },
+
+  "company_field": {
+    "singular": {
+      "label": "$t(common:company)",
+      "value": "Select a $t(common:company)"
+    },
+    "plural": {
+      "label": "$t(common:company_plural)",
+      "helper_text": "Multiple $t(common:company_plural) can be selected"
+    }
+  },
+
+  "subsidiary_field": {
+    "singular": {
+      "label": "$t(common:subsidiary)",
+      "value": "Select a $t(common:subsidiary)"
+    },
+    "plural": {
+      "label": "$t(common:subsidiary_plural)",
+      "helper_text": "Multiple $t(common:subsidiary_plural) can be selected"
+    }
+  },
+
+  "tire_size": {
+    "label": {
+      "singular": "$t(common:tire) $t(common:size)",
+      "plural": "$t(common:tire) sizes"
+    },
+    "default": {
+      "singular": "Select the $t(common:size)",
+      "plural": "Select the sizes"
+    },
+    "helper_text": "Multiple sizes can be selected"
+  },
+
+  "tire_repair": {
+    "not_repair": "Not under repair"
+  },
+
+  "revitalized_tire_model_application": {
+    "label": "Application",
+    "default": "Select a Application",
+    "options": {
+      "directional": "Steer",
+      "all_position": "All position"
+    }
+  },
+  "structure_type": {
+    "label": {
+      "singular": "Structure type",
+      "plural": "Structures types"
+    },
+    "default": {
+      "singular": "Select a structure type",
+      "plural": "Select the structures types"
+    },
+    "helper_text": "You can select many types of structures",
+    "options": {
+      "truck_tractor": "Truck tractor",
+      "truck": "Truck",
+      "box": "Box",
+      "dolly": "Dolly",
+      "van": "Van"
+    }
+  },
+
+  "tire_status": "$t(common:tire) status",
+
+  "preview": "Preview",
+
+  "provider": "$t(common:provider)",
+
+  "repair_detail": "Repair detail",
+
+  "not_rfid": "Without linked rfid",
+
+  "probable_cause": "Probable $t(common:cause)",
+
+  "lock_cycles": "Lock cycles",
+  "is_root": "Is root",
+  "selected": {
+    "singular": {
+      "male": "Selected",
+      "female": "Selected"
+    },
+    "plural": {
+      "male": "Selected",
+      "female": "Selected"
+    }
+  },
+  "division_name": "$t(common:division) $t(common:name)",
+  "association_name": "Association $t(common:name)",
+  "vehicle_status": "$t(common:vehicle) status",
+  "subsidiary_status": "$t(common:subsidiary) status",
+
+  "alerts": "$t(common:alert_plural)",
+  "alert_status": "$t(common:alert) status",
+  "disabled_alert": "Disabled $t(common:alert)",
+  "roles": "Roles",
+  "password_confirm": "Confirm password",
+  "change_password": "Change password to sing in",
+  "color": "Color",
+  "with_link_driver": "Show $t(common:vehicle_plural) without $t(common:driver)",
+  "model": "$t(common:model)",
+
+  "roles_field": {
+    "default": "Select a rol"
+  },
+  "rfid_field": {
+    "label": "RFID",
+    "default": "Select a device code"
+  },
+  "provider_field": {
+    "label": "$t(common:provider)",
+    "default": "Select a $t(common:provider)"
+  },
+  "warehouse_field": {
+    "label": "$t(common:warehouse)",
+    "default": "Select a $t(common:warehouse)"
+  },
+  "brand_field": {
+    "label": "$t(common:brand)",
+    "default": "Select a $t(common:brand)",
+    "multiple": "Multiple $t(common:brand_plural) can be selected"
+  },
+
+  "wear_field": {
+    "default": "Select a $t(common:wear)"
+  },
+  "wear": {
+    "plural": "$t(common:wear)",
+    "singular": "$t(common:wear)"
+  },
+  "damage_field": {
+    "default": "Select a $t(common:damage)"
+  },
+  "damage": {
+    "plural": "$t(common:damage_plural)",
+    "singular": "$t(common:damage)"
+  },
+
+  "revitalized_model_field": {
+    "label": "Revitalized $t(common:model)",
+    "default": "Select a $t(common:model)"
+  },
+  "tire_actions": "$t(common:tire) actions",
+
+  "select_a_tire": "Select a $t(common:tire)",
+  "traveled_km": "Traveled km",
+
+  "discard": "Discard",
+  "last_review_data": "Last $t(common:review) data",
+  "axle_information": "$t(common:axle) information",
+  "axle_position": "$t(common:axle) position",
+  "tire_position": "$t(common:tire) position",
+  "axle_applications": "Application of $t(common:tire_plural) allowed on the $t(common:axle)",
+  "with_review": "With $t(common:review)",
+
+  "start_inspection": "Start $t(common:inspection)",
+
+  "depths": "Depths",
+  "depth_external": "External",
+  "depth_middle": "Middle",
+  "depth_internal": "Internal",
+  "line": "Line",
+  "reviewed": "Reviewed",
+  "not_reviewed": "Not reviewed yet",
+
+  "all_tires": "All $t(common:tire_plural) must be indicated",
+  "depth_min": "Min depth",
+  "depth_max": "Max depth",
+
+  "tire_stats_report": {
+    "options": {
+      "brand_name": "$t(common:brand_plural)",
+      "model_name": "$t(common:model_plural)",
+      "model": "$t(common:model_plural)",
+      "depth": "Depths",
+      "size": "$t(common:size_plural)",
+      "number_cycle": "Retreads"
+    },
+    "headers": {
+      "brand_name": "$t(common:brand)",
+      "size": "$t(common:size)",
+      "model_name": "$t(common:model)",
+      "model": "$t(common:model)",
+      "number_cycle": "Cycle",
+      "depth": "Depth",
+      "number_of_tires": "No. of $t(common:tire_plural)"
+    }
+  },
+  "cant_move_tire": "Only stored $t(common:tire_plural) can be moved",
+  "no_division": "No $t(common:division)",
+  "no_corporate": "No $t(common:corporate)",
+  "summary_report": {
+    "percent": "Percent",
+    "pressure_condition": {
+      "high": "High",
+      "very_high": "Very High",
+      "excessively_high": "Excessively high",
+      "exaggerately_high": "Exaggerately high",
+      "low": "Low",
+      "very_low": "Very low",
+      "excessively_low": "Excessively low",
+      "exaggerately_low": "Exaggerately low",
+      "normal": "Normal",
+      "no_pressure": "No pressure"
+    },
+    "depth_condition": {
+      "good_condition": "Good condition",
+      "critical_withdrawal": "Critical withdrawal",
+      "scheduled_withdrawal": "Scheduled withdrawal"
+    },
+    "report_show": "This report shows the current status of the $t(common:tire) (pressure, depth, $t(common:alert_plural)).",
+    "report_desc_strong": "Not all $t(common:tire) revisions are shown,",
+    "report_desc": "but only data from the last $t(common:tire) revision is shown.",
+    "disclaimers": {
+      "high_pressure": "The pressure classifications \"High\" and \"Very High\" corresponds to the pressure classification \"High\" in the summary report.",
+      "low_pressure": "The pressure classifications \"Low\" and \"Very Low\" corresponds to the pressure classification \"Low\" in the summary report.",
+      "no_pressure": "The pressure classification \"No Pressure\" corresponds to the $t(common:tire_plural) that are stored."
+    }
+  },
+  "damages_wears": {
+    "percent": "Percent",
+    "area": "Area",
+    "frequency": "Frequency",
+    "attribution": "Attribution",
+    "provider": "$t(common:provider)",
+    "incidents": "Incidents"
+  },
+  "link_message": "Only one field can be filled in at a time from these options: $t(common:corporate) - $t(common:company) - $t(common:subsidiary)",
+  "axles": {
+    "options": {
+      "frontal": "Frontal",
+      "central": "Central",
+      "rear": "Rear",
+      "refection": "Refection"
+    }
+  },
+  "autocomplete": {
+    "no_options": "No options",
+    "open": "Open",
+    "close": "Close",
+    "clear": "Clear"
+  },
+  "tire_in_position": "$t(common:tire) in position {position}:",
+  "reset_difference": "Reset gps difference",
+
+  "pressure_rating": "Classification pressure",
+  "depth_rating": "Classification depth",
+  "see_alerts": "See $t(common:alert_plural)",
+  "best_tire": "The best $t(common:tire)",
+  "best_performance_desc": "This report shows which is the best performing $t(common:tire) based on its km",
+  "best_performance_desc_small": "Only $t(common:tire_plural) that have traveled more than 50,000 km in their current stage (original or revitalized) are taken into account",
+  "tire_cost": "Cost of $t(common:tire_plural) according to their original $t(common:model)",
+  "actual_cost": "Current cost per Km",
+  "proposal": "Proposal",
+  "real_saving": "Actual savings per Km",
+  "cost": "Cost",
+  "revitalized_cost": "Cost of $t(common:tire_plural) according to their revitalized $t(common:model)",
+  "best_tire_original": "Best original $t(common:tire_plural)",
+  "best_tire_revitalized": "Best revitalized $t(common:tire_plural)",
+
+  
+  "warehouse_report": {
+    "variation": "Variation",
+    "revitalized_brand": "Revitalized $t(common:brand)",
+    "revitalized_model": "Revitalized $t(common:model)",
+    "report": "Report of $t(common:tire_plural) in $t(common:warehouse_plural)"
+  },
+  "tires_mount_report": {
+    "report_of_tires": "Report of $t(common:tire_plural) installed in $t(common:vehicle_plural)",
+    "position": "Position",
+    "type": "Type"
+  },
+  "damages_wears_report": {
+    "report_damage_wear": "Report of $t(common:damage) and $t(common:wear) to $t(common:tire) $t(common:model_plural)",
+    "shows_tire_model": "This report shows $t(common:tire) $t(common:model_plural) with percentages of $t(common:damage) and $t(common:wear).",
+    "damage_counters": "$t(common:damage) counters",
+    "wear_counters": "$t(common:wear) counters"
+  },
+
+  "report_pile": {
+    "cycle": "Cycle",
+    "tires": "$t(common:tire_plural)",
+    "addition": "Addition mm",
+    "average": "Average mm useful",
+    "utils_mm": "Utils mm",
+    "cost_mm": "Average cost mm",
+    "cost_useful": "Average cost mm useful",
+    "summary_cost_mm": "Total cost mm useful",
+    "cost": "Cost",
+    "cost_km": "Cost km",
+    "originals": "Originals",
+    "revitalized": "Revitalized",
+    "number_of_tires": "Number of $t(common:tire_plural)",
+    "retirement_cause_field": {
+      "label": "Retirement cause",
+      "default": "Select a retirement cause"
+    }
+  },
+  "pile_summary_report": {
+    "pressure_classification": "Pressure classification",
+    "depth_classification": "Depth classification",
+    "alert_classification": "$t(common:alert) classification",
+    "view_alerts": "View $t(common:alert_plural)",
+    "movements": {
+      "options": {
+        "both": "Both",
+        "warehouse": "$t(common:warehouse)",
+        "mount": "Mount"
+      }
+    }
+  },
+  "pile_performance_report": {
+    "show_report": "This report shows which is the $t(common:tire) with the best performance based on its km",
+    "paragraph_report": "Only $t(common:tire_plural) that have more than 100,000 km traveled in their current stage (original or revitalized) are taken into account.",
+    "cost_tire": "Cost of $t(common:tire_plural) according to your Original $t(common:model)",
+    "current_cost": "Current cost per Km",
+    "proposal": "Proposal",
+    "real_savings": "Real savings per Km",
+    "layers": "Layers",
+    "tires": "$t(common:tire_plural)",
+    "cost_10_km": "Cost * 10k/km",
+    "tire_cost_revitalized": "$t(common:tire) cost based on your Revitalized $t(common:model)"
+  },
+  "pile_stats_report": {
+    "number_of_tires": "No. $t(common:tire_plural)",
+    "range_of_depths": "Range of depths (mm)"
+  },
+  "report_last_movement": {
+    "label": "Last Movement",
+    "last_position": "Last position",
+    "renovated_number": "Renovated number",
+    "type": "Type",
+    "shipping_date": "Shipping date to",
+    "depth_model": "$t(common:model) tread depth",
+    "depth_last_revision": "Tread depth at last revision",
+    "wasted_rubber": "wasted rubber",
+    "cost": "Cost - MM",
+    "disposal_loss": "Disposal loss"
+  },
+  "needs_report": "Needs report",
+  "suggested": "Suggested",
+  "quantity": "Quantity",
+  "originals": "Originals",
+  "revitalized": "Revitalized",
+  "calculated": "Calculated",
+  "original_cost": "Original cost",
+  "ranking": "Ranking",
+  "cost_km": "Cost for km",
+  "required": "Required",
+  "stock": "Stock",
+  "to_buy": "To buy",
+  "last_purchase_price": "Last purchase price",
+  "last_purchase_date": "Last purchase date",
+  "center": "Center",
+  "start_date": "Start date",
+  "end_date": "End date",
+  "semaphore": "Semaphore",
+  "depth_semaphore": "Depth Semaphore",
+  "pressure_semaphore": "Pressure Semaphore",
+  "tires_by_condition": "$t(common:tire_plural) by condition",
+  "tires_by_application": "$t(common:tire_plural) by application",
+  "bad_mating": "Bad mating",
+  "costs": "Costs for mm",
+  "pressures": "Pressure",
+  "analysis": "Analysis",
+  "summary": "Summary",
+  "summary_desc": "Know the savings that can be generated by applying appropriate corrective actions in PRESSURE and $t(common:tire) DISASSEMBLY in a CRITICAL REMOVAL state.",
+  "floor_depth": "Floor depth",
+  "point_withdrawal": "Point withdrawal",
+  "air_pressure": "Air pressure",
+  "copyright": "Copyright 2022 SETENAL | Privacy $t(common:policy) - Terms of Use",
+  "type": "Type",
+  "vitalized": "Vitalized",
+  "tires_good_condition": "$t(common:tire_plural) in good condition",
+  "tires_to_be_renewed": "$t(common:tire_plural) to be renewed",
+  "tires_to_renew": "$t(common:tire_plural) to renew",
+  "total_tires_checked": "Total of $t(common:tire_plural) checked",
+  "quantity_originals": "Quantity originals",
+  "quantity_revitalized": "Quantity revitalized",
+  "total_number_tires": "Total number of $t(common:tire_plural)",
+  "investment_original_tires": "Investment of original $t(common:tire_plural)",
+  "investment_renewed_tires": "Investment of renewed $t(common:tire_plural)",
+  "wear_loss": "$t(common:wear) loss",
+  "potential_savings": "Potential savings",
+  "description_code": "Description code",
+  "quantity_alerts": "Quantity of $t(common:alert_plural)",
+  "costo": "Cost",
+  "sum_of_mm": "Sum of mm",
+  "average_mm": "Average of mm",
+  "cost_mm": "Cost of mm",
+  "area_of_opportunity": "Area of opportunity",
+  "total_sample": "Total sample",
+  "total_base": "Total base",
+  "potencial_savings_fleet": "$t(common:tire) fleet savings",
+  "tires_fleet": "Amount of $t(common:tire_plural) with an $t(common:inspection)",
+  "savings_tires": "Savings per $t(common:tire)",
+  "durability": "Average durability per $t(common:tire)",
+  "savings_durability": "Savings per km per $t(common:tire)",
+  "estimated_fleet": "Total $t(common:tire_plural)",
+  "savings_durability_fleet": "Fleet Savings per km",
+  "potential_national_savings": "Total Potential Savings",
+  "with_pressure": "With pressure",
+  "percent_of_loss": "% of loss",
+  "renovated": "Renovated",
+  "pressure_loss": "Pressure loss",
+  "rev_cost": "Revitalized cost",
+  "original_loss_percentage": "% original loss",
+  "revitalized_loss_percentage": "% revitalized loss",
+  "average_price_per_tire": "Average price per $t(common:tire) (by $t(common:model) and number of $t(common:tire_plural))",
+  "report_summary": {
+    "location": {
+      "warehouse": "$t(common:warehouse)",
+      "mount": "Mount",
+      "both": "Both ($t(common:warehouse) & Mount)",
+      "pile": "Pile"
+    },
+    "desc": "This report shows the last $t(common:inspection) of the $t(common:tire_plural) included in the selected date period"
+  },
+  "quant": "qty",
+  "report_savings": {
+    "condition": {
+      "advertencia": "Warning",
+      "normal": "Normal"
+    }
+  },
+  "show_refection": "Hide refection",
+  "with_mount_dismount": "Don't show Mount/Dismount",
+  "percent": "Percent",
+  "incidents": "Incidents",
+  "attribution": {
+    "options": {
+      "operator": "Operator",
+      "use_and_service": "Use and service",
+      "operation": "Operation",
+      "factory": "Factory",
+      "maintenance": "Maintenance",
+      "retreader": "Retreader",
+      "total": "Total",
+      "unclassifiable": "Unclassifiable",
+      "none": "Unclassifiable",
+      "provider": "$t(common:provider)"
+    }
+  },
+  "evidence": "Evidence",
+  "original_tires": "Original $t(common:tire_plural)",
+  "revitalized_tires": "Revitalized $t(common:tire_plural)",
+  "semaphore_report": {
+    "report_desc": "By default (if a date range is not defined) the system shows all $t(common:tire_plural) installed in the $t(common:vehicle) fleet",
+    "total_amount": "Total amount",
+    "unit": "Unit",
+    "units": "Units"
+  },
+  "no_results": "No results",
+
+  "select_alert": "Select an $t(common:alert)",
+  "repair_detail_name": {
+    "label": "Repair $t(common:name)",
+    "default": "Select a $t(common:name)",
+    "options": {
+      "patch": "Patch",
+      "stuffed": "Stuffed"
+    }
+  },
+  "tire_revitalized_report": {
+    "title": "This report shows the number of $t(common:tire_plural) per $t(common:provider) and the approx. How long does the revitalization process take?",
+    "time": "Time approx."
+  },
+  "summary_warehouse_report": {
+    "title": "This report shows the number of unmounted $t(common:tire_plural) per $t(common:warehouse)"
+  },
+  "summary_mount_report": {
+    "title": "This report shows the number of $t(common:tire_plural) mounted per $t(common:vehicle) type",
+    "time": "Time approx."
+  },
+  "tire_repair_report": {
+    "title": "This report shows the number of $t(common:tire_plural) per $t(common:provider) and the approximation of how long the revitalization process takes",
+    "time": "Time approx."
+  },
+  "km_projection_report": {
+    "title": "Km Projection Report",
+    "label": "This report shows the km projection of the $t(common:tire_plural)",
+    "km_projection": "Km Projection",
+    "km_projection_cost": "Km Projection Cost"
+  },
+  "km_pile_report": {
+    "title": "Km Pile Report",
+    "average": "$t(common:travel) average",
+    "cost_km": "Cost per Km",
+    "summary": "$t(common:travel) summary"
+  },
+  "alert_cause": "$t(common:alert) $t(common:cause)",
+  "tire_review_date": "$t(common:tire) $t(common:review) date",
+  "trend": "Trend",
+  "last_sampling": "Last sampling",
+  "current": "Current",
+  "losses": "Losses",
+  "savings": "Savings",
+  "original_investment": "Original investment",
+  "revitalized_investment": "Retread investment",
+  "revitalized_saving": "Retread saving",
+  "pressure_saving": "Pressure saving",
+  "proposed_saving": "Proposed saving",
+  "month": "Month",
+  "potential_savings_desc": "This report shows the condition of the fleet ($t(common:vehicle_plural)/$t(common:tire_plural)) in a selected monthly period (If a default month is not defined, it takes the month prior to the current date). This report DOES NOT SHOW THE INFORMATION for the current month. To consult this information, go to the Summary Report. The main intention of this report is to show the behavior of fleet $t(common:review_plural) and indicate the losses and savings generated month by month.",
+  "summary_report_link": "Go to the summary report",
+  "relative_cost_text": "*If no renewal price has been indicated, the system will determine the approximate price of renewing the tire",
+  "driver_code": "$t(common:driver) code",
+  "license": "License",
+  "course": "Course",
+  "duration": "Duration",
+  "months": "Months",
+  "days": "Days",
+  "day": "Day",
+  "min_km": "Min. Km",
+  "max_km": "Max. Km",
+
+  "no_option": "No option",
+  "only_empty_vehicles": "Only empty $t(common:vehicle_plural)",
+  "type_value": {
+    "string": "Text",
+    "integer": "Whole number",
+    "decimal": "Decimal number",
+    "boolean": "Check"
+  },
+  "is_critical": "Is critical",
+  "general_data": "General data",
+  "headboard": "Headboard",
+  "body": "Body"
+}

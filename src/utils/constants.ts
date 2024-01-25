@@ -1,0 +1,15 @@
+export {
+  WORK_AREA,
+  WORK_AREA_ID,
+  WORK_AREA_NAME,
+  LANGUAGE,
+  USER_TOKEN,
+  SERVER_URL,
+};
+
+const WORK_AREA = "WORK_AREA";
+const WORK_AREA_NAME = "WORK_AREA_NAME";
+const WORK_AREA_ID = "WORK_AREA_ID";
+const LANGUAGE = "LANGUAGE";
+const USER_TOKEN = "USER_TOKEN";
+const SERVER_URL = "http://localhost";
